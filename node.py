@@ -66,6 +66,9 @@ class TextNode(Node):
     def getClass(self) -> list[str]:
         return []
 
+    def append(self, node):
+        pass
+
 
 a = Node("html", lang="ja")
 b = Node("head")
