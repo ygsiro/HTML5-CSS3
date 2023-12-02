@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+article {
+  border: solid 1px black;
+  width: 400px;
+  margin: 1em;
+  padding: 1em;
+  & header {
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.category li::before {
+  content: "⚪︎";
+}
+
+.meta .meta::before {
+  content: "⚫︎";
+  color: red;
+}
+
+.flow .flow::before {
+  content: "⚫︎";
+  color: orange;
+}
+
+.section .section::before {
+  content: "⚫︎";
+  color: yellow;
+}
+
+.heading .heading::before {
+  content: "⚫︎";
+  color: green;
+}
+
+.phrasing .phrasing::before {
+  content: "⚫︎";
+  color: aqua;
+}
+
+.embedded .embedded::before {
+  content: "⚫︎";
+  color: blue;
+}
+
+.interactive .interactive::before {
+  content: "⚫︎";
+  color: purple;
+}
