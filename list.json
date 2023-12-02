@@ -840,7 +840,7 @@
             "interactive/controls属性がある場合"
         ]
     },
-    "wbe": {
+    "wbr": {
         "description": "改行可能",
         "category": [
             "flow",
