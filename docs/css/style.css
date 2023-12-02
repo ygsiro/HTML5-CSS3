@@ -11,6 +11,12 @@ ul {
   padding-left: 0;
   display: flex;
 }
+
+nav ul {
+  display: block;
+  padding-left: 7em;
+}
+
 html {
   font-family: "Courier New", Courier, monospace;
 }
