@@ -6,17 +6,18 @@
   box-sizing: border-box;
   margin: 0;
 }
-ul {
+
+.category {
   list-style: none;
   padding-left: 0;
   display: flex;
 }
-
-nav ul {
-  display: block;
-  padding-left: 7em;
+nav > ul {
+  padding-left: 0;
 }
-
+nav > ul > li {
+  display: flex;
+}
 html {
   font-family: "Courier New", Courier, monospace;
 }
@@ -55,12 +56,12 @@ article {
   content: "flow";
 }
 
-.section .section::before {
+.sectioning .sectioning::before {
   content: "⚫︎";
   color: yellow;
 }
 
-.section .section:hover::after {
+.sectioning .sectioning:hover::after {
   content: "sectioning";
 }
 

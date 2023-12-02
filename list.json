@@ -648,7 +648,7 @@
             "palpable"
         ]
     },
-    "section": {
+    "sectioning": {
         "description": "汎用セクション",
         "category": [
             "flow",
