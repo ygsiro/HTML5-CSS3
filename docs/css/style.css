@@ -36,9 +36,17 @@ article {
   color: red;
 }
 
+.meta .meta:hover::after {
+  content: "meta";
+}
+
 .flow .flow::before {
   content: "⚫︎";
   color: orange;
+}
+
+.flow .flow:hover::after {
+  content: "flow";
 }
 
 .section .section::before {
@@ -46,9 +54,17 @@ article {
   color: yellow;
 }
 
+.section .section:hover::after {
+  content: "sectioning";
+}
+
 .heading .heading::before {
   content: "⚫︎";
   color: green;
+}
+
+.heading .heading:hover::after {
+  content: "heading";
 }
 
 .phrasing .phrasing::before {
@@ -56,12 +72,28 @@ article {
   color: aqua;
 }
 
+.phrasing .phrasing:hover::after {
+  content: "phrasing";
+}
+
 .embedded .embedded::before {
   content: "⚫︎";
   color: blue;
 }
 
+.embedded .embedded:hover:after {
+  content: "embedded";
+}
+
 .interactive .interactive::before {
   content: "⚫︎";
   color: purple;
+}
+
+.interactive .interactive:hover::after {
+  content: "interactive";
+}
+
+.category li.condition::before {
+  content: "◉";
 }
