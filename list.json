@@ -2072,6 +2072,62 @@
             "};"
         ]
     },
+    "object": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "listed form-associated element",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [
+            "transparent"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "data — Address of the resource",
+            "type — Type of embedded resource",
+            "name — Name of content navigable",
+            "form — Associates the element with a [form] element",
+            "width — Horizontal dimension",
+            "height — Vertical dimension"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLObjectElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString data;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [CEReactions] attribute DOMString name;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute DOMString width;",
+            "  [CEReactions] attribute DOMString height;",
+            "  readonly attribute Document? contentDocument;",
+            "  readonly attribute WindowProxy? contentWindow;",
+            "  Document? getSVGDocument();",
+            "  ",
+            "  readonly attribute boolean willValidate;",
+            "  readonly attribute ValidityState validity;",
+            "  readonly attribute DOMString validationMessage;",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "  undefined setCustomValidity(DOMString error);",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
