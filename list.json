@@ -434,6 +434,32 @@
             "};"
         ]
     },
+    "hgroup": {
+        "categories": [
+            "flow content",
+            "heading content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where heading content is expected."
+        ],
+        "content": [
+            "Zero or more [p] elements, followed by one [h1], [h2], [h3], [h4], [h5], or [h6] element, followed by zero or more [p] elements, optionally intermixed with script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
