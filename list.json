@@ -219,6 +219,42 @@
             "};"
         ]
     },
+    "style": {
+        "categories": [
+            "metadata content"
+        ],
+        "context": [
+            "Where metadata content is expected.",
+            "In a [noscript] element that is a child of a [head] element."
+        ],
+        "content": [
+            "Text that gives a conformant style sheet."
+        ],
+        "tag omission": [
+            "Neither tag is omissible."
+        ],
+        "attributes": [
+            "global attributes",
+            "media - Applicable media",
+            "blocking - Whether the element is potentially render-blocking",
+            "Also, the title attribute has special semantics on this element: CSS style sheet set name."
+        ],
+        "accessibility": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLStyleElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  attribute boolean disabled;",
+            "  [CEReactions] attribute DOMString media;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList blocking;",
+            "  // also has obsolete members",
+            "};",
+            "HTMLStyleElement includes LinkStyle;"
+        ]
+    },
     "copy": {
         "categories": [],
         "context": [],
