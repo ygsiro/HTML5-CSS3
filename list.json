@@ -1908,6 +1908,73 @@
             "};"
         ]
     },
+    "img": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "form-associated element",
+            "If the element has a usemap attribute: Interactive content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected.",
+            "As a child of a [picture] element, after all [source] elements."
+        ],
+        "content model": [],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "alt — Replacement text for use when images are not available",
+            "src — Address of the resource",
+            "srcset — Images to use in different situations, e.g., high-resolution displays, small monitors, etc.",
+            "sizes — Image sizes for different page layouts",
+            "crossorigin — How the element handles crossorigin requests",
+            "usemap — Name of image map to use",
+            "ismap — Whether the image is a server-side image map",
+            "width — Horizontal dimension",
+            "height — Vertical dimension",
+            "referrerpolicy — Referrer policy for fetches initiated by the element",
+            "decoding — Decoding hint to use when processing this image for presentation",
+            "loading — Used when determining loading deferral",
+            "fetchpriority — Sets the priority for fetches initiated by the element"
+        ],
+        "accessibility considerations": [
+            "If the element has a non-empty alt attribute: for authors; for implementers.",
+            "Otherwise: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "[Exposed=Window,",
+            " LegacyFactoryFunction=Image(optional unsigned long width, optional unsigned long height)]",
+            "interface HTMLImageElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString alt;",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute USVString srcset;",
+            "  [CEReactions] attribute DOMString sizes;",
+            "  [CEReactions] attribute DOMString? crossOrigin;",
+            "  [CEReactions] attribute DOMString useMap;",
+            "  [CEReactions] attribute boolean isMap;",
+            "  [CEReactions] attribute unsigned long width;",
+            "  [CEReactions] attribute unsigned long height;",
+            "  readonly attribute unsigned long naturalWidth;",
+            "  readonly attribute unsigned long naturalHeight;",
+            "  readonly attribute boolean complete;",
+            "  readonly attribute USVString currentSrc;",
+            "  [CEReactions] attribute DOMString referrerPolicy;",
+            "  [CEReactions] attribute DOMString decoding;",
+            "  [CEReactions] attribute DOMString loading;",
+            "  [CEReactions] attribute DOMString fetchPriority;",
+            "  ",
+            "  Promise<undefined> decode();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
