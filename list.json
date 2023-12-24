@@ -403,6 +403,37 @@
             "Uses HTMLElement."
         ]
     },
+    "h1-6": {
+        "categories": [
+            "flow content",
+            "sectioning content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "As a child of an [hgroup] element.",
+            "Where heading content is expected."
+        ],
+        "content": [
+            "Phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLHeadingElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
