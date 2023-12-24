@@ -813,6 +813,52 @@
             "};"
         ]
     },
+    "dt": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "Before [dd] or [dt] elements inside [dl] elements.",
+            "Before [dd] or [dt] elements inside [div] elements that are children of a [dl] element."
+        ],
+        "content model": [
+            "flow content, but with no [header], [footer], sectioning content, or heading content descendants."
+        ],
+        "tag omission in text/html": [
+            "A [dt] element's end tag can be omitted if the [dt] element is immediately followed by another [dt] element or a [dd] element."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "dd": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "After [dd] or [dt] elements inside [dl] elements.",
+            "After [dd] or [dt] elements inside [div] elements that are children of a [dl] element."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "A [dd] element's end tag can be omitted if the [dd] element is immediately followed by another [dd] element or a [dt] element, or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
