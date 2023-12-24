@@ -55,6 +55,35 @@
             "};"
         ]
     },
+    "title": {
+        "categories": [
+            "metadata content"
+        ],
+        "context": [
+            "In a [head] element containing no other [title] elements."
+        ],
+        "content": [
+            "Text that is not inter-element whitespace."
+        ],
+        "tag omission": [
+            "Neither tag is omissible."
+        ],
+        "attributes": [
+            "global attributes"
+        ],
+        "accessibility": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTitleElement: HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString text;",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "context": [],
@@ -63,7 +92,10 @@
         "attributes": [
             "global attributes"
         ],
-        "accessibility": [],
+        "accessibility": [
+            "for authors",
+            "for implementers"
+        ],
         "DOM interface": []
     }
 }
