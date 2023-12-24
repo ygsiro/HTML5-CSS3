@@ -886,6 +886,28 @@
             "Uses HTMLElement."
         ]
     },
+    "figcaption": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As the first or last child of a [figure] element."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
