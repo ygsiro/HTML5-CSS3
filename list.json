@@ -933,6 +933,31 @@
             "Uses HTMLElement."
         ]
     },
+    "search": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
