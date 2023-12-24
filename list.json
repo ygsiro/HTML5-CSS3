@@ -255,6 +255,50 @@
             "HTMLStyleElement includes LinkStyle;"
         ]
     },
+    "body": {
+        "categories": [],
+        "context": [
+            "As the second element in an [html] element."
+        ],
+        "content": [
+            "Flow content"
+        ],
+        "tag omission": [
+            "A [body] element's start tag can be omitted if the element is empty, or if the first thing inside the [body] element is not ASCII whitespace or a comment, except if the first thing inside the [body] element is a [meta], [noscript], [link], [script], [style], or [template] element.",
+            "A [body] element's end tag can be omitted if the [body] element is not immediately followed by a comment."
+        ],
+        "attributes": [
+            "global attributes",
+            "onafterprint",
+            "onbeforeprint",
+            "onbeforeunload",
+            "onhashchange",
+            "onlanguagechange",
+            "onmessage",
+            "onmessageerror",
+            "onoffline",
+            "ononline",
+            "onpagehide",
+            "onpageshow",
+            "onpopstate",
+            "onrejectionhandled",
+            "onstorage",
+            "onunhandledrejection",
+            "onunload"
+        ],
+        "accessibility": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLBodyElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  // also has obsolete members",
+            "};",
+            "HTMLBodyElement includes WindowEventHandlers;"
+        ]
+    },
     "copy": {
         "categories": [],
         "context": [],
