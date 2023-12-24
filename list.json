@@ -622,6 +622,37 @@
             "};"
         ]
     },
+    "blockquote": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "cite - Link to the source of the quotation or more information about the edit"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLQuoteElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString cite;",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
