@@ -1,21 +1,21 @@
 {
     "html": {
         "categories": [],
-        "context": [
+        "contexts in which this element can be used": [
             "As document's document element.",
             "Wherever a subdocument fragment is allowed in a compound document."
         ],
         "content": [
             "A [head] element followed by a [body] element."
         ],
-        "tag omission": [
+        "tag omission in text/html": [
             "An [html] element's start tag can be omitted if the first thing inside the [html] element is not a comment.",
             "An [html] element's end tag can be omitted if the [html] element is not immediately followed by a comment."
         ],
-        "attributes": [
+        "content attributes": [
             "global attributes"
         ],
-        "accessibility": [
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
@@ -30,21 +30,21 @@
     },
     "head": {
         "categories": [],
-        "context": [
+        "contexts in which this element can be used": [
             "As the first element in an [html] element."
         ],
         "content": [
             "If the document is an [iframe] srcdoc document or if title information is available from a higher-level protocol: Zero or more elements of metadata content, of which no more than one is a [title] element and no more than one is a [base] element.",
             "Otherwise: One or more elements of metadata content, of which exactly one is a [title] element and no more than one is a [base] element."
         ],
-        "tag omission": [
+        "tag omission in text/html": [
             "A [head] element's start tag can be omitted if the element is empty, or if the first thing inside the [head] element is an element.",
             "A [head] element's end tag can be omitted if the [head] element is not immediately followed by ASCII whitespace or a comment."
         ],
-        "attributes": [
+        "content attributes": [
             "global attributes"
         ],
-        "accessibility": [
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
@@ -59,19 +59,19 @@
         "categories": [
             "metadata content"
         ],
-        "context": [
+        "contexts in which this element can be used": [
             "In a [head] element containing no other [title] elements."
         ],
         "content": [
             "Text that is not inter-element whitespace."
         ],
-        "tag omission": [
+        "tag omission in text/html": [
             "Neither tag is omissible."
         ],
-        "attributes": [
+        "content attributes": [
             "global attributes"
         ],
-        "accessibility": [
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
@@ -88,19 +88,19 @@
         "categories": [
             "metadata content"
         ],
-        "context": [
+        "contexts in which this element can be used": [
             "In a [head] element containing no other [base] elements."
         ],
         "content": [],
-        "tag omission": [
+        "tag omission in text/html": [
             "No end tag."
         ],
-        "attributes": [
+        "content attributes": [
             "global attributes",
             "href - Document base URL",
             "target - Default navigable for hyperlink navigation and from submission"
         ],
-        "accessibility": [
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
@@ -120,16 +120,16 @@
             "If the element is allowed in the body: flow content.",
             "If the element is allowed in the body: phrasing content."
         ],
-        "context": [
+        "contexts in which this element can be used": [
             "Where metadata content is expected.",
             "In a [noscript] element that is a child of a [head] element.",
             "If the element is allowed in the body: where phrasing content is expected."
         ],
         "content": [],
-        "tag omission": [
+        "tag omission in text/html": [
             "No end tag."
         ],
-        "attributes": [
+        "content attributes": [
             "global attributes",
             "href - Address of the hyperlink",
             "crossorigin - How the element handles crossorigin requests",
@@ -148,7 +148,7 @@
             "disabled - Whether the link is disabled",
             "fetchpriority - Sets the priority for fetches initiated by the element. Also, the title attribute has special semantics on this element: Title of the link; CSS style sheet set name"
         ],
-        "accessibility": [
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
@@ -183,7 +183,7 @@
             "If the itemprop attribute is present: flow content.",
             "If the itemprop attribute is present: phrasing content."
         ],
-        "context": [
+        "contexts in which this element can be used": [
             "If the charset attribute is present, or if the element's http-equiv attribute is in the Encoding declaration state: in a [head] element.",
             "If the http-equiv attribute is present but not in the Encoding declaration state: in a [head] element.",
             "If the http-equiv attribute is present but not in the Encoding declaration state: in a [noscript] element that is a child of a [head] element.",
@@ -192,10 +192,10 @@
             "If the itemprop attribute is present: where phrasing content is expected."
         ],
         "content": [],
-        "tag omission": [
+        "tag omission in text/html": [
             "No end tag."
         ],
-        "attributes": [
+        "content attributes": [
             "global attributes",
             "name - Metadate name",
             "http-equiv - Pragma directive",
@@ -203,7 +203,7 @@
             "charset - Character encoding declaration",
             "media - Applicable media"
         ],
-        "accessibility": [
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
@@ -223,23 +223,23 @@
         "categories": [
             "metadata content"
         ],
-        "context": [
+        "contexts in which this element can be used": [
             "Where metadata content is expected.",
             "In a [noscript] element that is a child of a [head] element."
         ],
         "content": [
             "Text that gives a conformant style sheet."
         ],
-        "tag omission": [
+        "tag omission in text/html": [
             "Neither tag is omissible."
         ],
-        "attributes": [
+        "content attributes": [
             "global attributes",
             "media - Applicable media",
             "blocking - Whether the element is potentially render-blocking",
             "Also, the title attribute has special semantics on this element: CSS style sheet set name."
         ],
-        "accessibility": [
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
@@ -257,17 +257,17 @@
     },
     "body": {
         "categories": [],
-        "context": [
+        "contexts in which this element can be used": [
             "As the second element in an [html] element."
         ],
         "content": [
             "flow content"
         ],
-        "tag omission": [
+        "tag omission in text/html": [
             "A [body] element's start tag can be omitted if the element is empty, or if the first thing inside the [body] element is not ASCII whitespace or a comment, except if the first thing inside the [body] element is a [meta], [noscript], [link], [script], [style], or [template] element.",
             "A [body] element's end tag can be omitted if the [body] element is not immediately followed by a comment."
         ],
-        "attributes": [
+        "content attributes": [
             "global attributes",
             "onafterprint",
             "onbeforeprint",
@@ -286,7 +286,7 @@
             "onunhandledrejection",
             "onunload"
         ],
-        "accessibility": [
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
@@ -305,19 +305,19 @@
             "sectioning content",
             "palpable content"
         ],
-        "context": [
+        "contexts in which this element can be used": [
             "Where sectioning content is expected."
         ],
         "content": [
             "flow content"
         ],
-        "tag omission": [
+        "tag omission in text/html": [
             "Neither tag is omissible."
         ],
-        "attributes": [
+        "content attributes": [
             "global attributes"
         ],
-        "accessibility": [
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
@@ -331,19 +331,19 @@
             "sectioning content",
             "palpable content"
         ],
-        "context": [
+        "contexts in which this element can be used": [
             "Where sectioning content is expected."
         ],
         "content": [
             "flow content"
         ],
-        "tag omission": [
+        "tag omission in text/html": [
             "Neither tag is omissible."
         ],
-        "attributes": [
+        "content attributes": [
             "global attributes"
         ],
-        "accessibility": [
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
@@ -357,19 +357,45 @@
             "sectioning content",
             "palpable content"
         ],
-        "context": [
+        "contexts in which this element can be used": [
             "Where sectioning content is expected."
         ],
         "content": [
             "flow content"
         ],
-        "tag omission": [
+        "tag omission in text/html": [
             "Neither tag is omissible."
         ],
-        "attributes": [
+        "content attributes": [
             "global attributes"
         ],
-        "accessibility": [
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "aside": {
+        "categories": [
+            "flow content",
+            "sectioning content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where sectioning content is expected."
+        ],
+        "content": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
@@ -379,13 +405,13 @@
     },
     "copy": {
         "categories": [],
-        "context": [],
+        "contexts in which this element can be used": [],
         "content": [],
-        "tag omission": [],
-        "attributes": [
+        "tag omission in text/html": [],
+        "content attributes": [
             "global attributes"
         ],
-        "accessibility": [
+        "accessibility considerations": [
             "for authors",
             "for implementers"
         ],
