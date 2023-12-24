@@ -1839,6 +1839,36 @@
             "Uses HTMLModElement."
         ]
     },
+    "picture": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [
+            "Zero or more [source] elements, followed by one [img] element, optionally intermixed with script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLPictureElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
