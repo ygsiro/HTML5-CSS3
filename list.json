@@ -1975,6 +1975,61 @@
             "};"
         ]
     },
+    "iframe": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "interactive content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "src — Address of the resource",
+            "srcdoc — A document to render in the [iframe]",
+            "name — Name of content navigable",
+            "sandbox — Security rules for nested content",
+            "allow — Permissions policy to be applied to the [iframe]'s contents",
+            "allowfullscreen — Whether to allow the [iframe]'s contents to use requestFullscreen()",
+            "width — Horizontal dimension",
+            "height — Vertical dimension",
+            "referrerpolicy — Referrer policy for fetches initiated by the element",
+            "loading — Used when determining loading deferral"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLIFrameElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute DOMString srcdoc;",
+            "  [CEReactions] attribute DOMString name;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList sandbox;",
+            "  [CEReactions] attribute DOMString allow;",
+            "  [CEReactions] attribute boolean allowFullscreen;",
+            "  [CEReactions] attribute DOMString width;",
+            "  [CEReactions] attribute DOMString height;",
+            "  [CEReactions] attribute DOMString referrerPolicy;",
+            "  [CEReactions] attribute DOMString loading;",
+            "  readonly attribute Document? contentDocument;",
+            "  readonly attribute WindowProxy? contentWindow;",
+            "  Document? getSVGDocument();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
