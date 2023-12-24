@@ -653,6 +653,43 @@
             "};"
         ]
     },
+    "ol": {
+        "categories": [
+            "flow content",
+            "if the element's children include at least one [li] element: palpable content."
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "Zero or more [li] and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "reversed - Number the list backwards",
+            "start - Starting value of the list",
+            "type - Kind of list marker"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLOListElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute boolean reversed;",
+            "  [CEReactions] attribute long start;",
+            "  [CEReactions] attribute DOMString type;",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
