@@ -351,6 +351,32 @@
             "Uses HTMLElement."
         ]
     },
+    "nav": {
+        "categories": [
+            "flow content",
+            "sectioning content",
+            "palpable content"
+        ],
+        "context": [
+            "Where sectioning content is expected."
+        ],
+        "content": [
+            "flow content"
+        ],
+        "tag omission": [
+            "Neither tag is omissible."
+        ],
+        "attributes": [
+            "global attributes"
+        ],
+        "accessibility": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
     "copy": {
         "categories": [],
         "context": [],
