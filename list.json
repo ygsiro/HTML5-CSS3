@@ -1043,6 +1043,32 @@
             "HTMLAnchorElement includes HTMLHyperlinkElementUtils;"
         ]
     },
+    "em": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
