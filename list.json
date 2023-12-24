@@ -1869,6 +1869,45 @@
             "};"
         ]
     },
+    "source": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [picture] element, before the [img] element.",
+            "As a child of a media element, before any flow content or [track] elements."
+        ],
+        "content model": [],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "type - Type of embedded resource",
+            "media - Applicable media",
+            "src (in [audio] or [video]) - Address of the resource",
+            "srcset (in [picture]) - Images to use in different situations, e.g., high-resolution displays, small monitors, etc.",
+            "sizes (in [picture]) - Image sizes for different page layouts",
+            "width (in [picture]) - Horizontal dimension",
+            "height (in [picture]) - Horizontal dimension"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLSourceElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [CEReactions] attribute USVString srcset;",
+            "  [CEReactions] attribute DOMString sizes;",
+            "  [CEReactions] attribute DOMString media;",
+            "  [CEReactions] attribute unsigned long width;",
+            "  [CEReactions] attribute unsigned long height;",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
