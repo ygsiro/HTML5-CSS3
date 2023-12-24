@@ -990,6 +990,59 @@
             "};"
         ]
     },
+    "a": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "If the element has an href attribute: Interactive content.",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "Transparent, but there must be no interactive content descendant, [a] element descendant, or descendant with the tabindex attribute specified."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "href - Address of the hyperlink",
+            "target - Navigable for hyperlink navigation",
+            "download - Whether to download the resource instead of navigating to it, and its filename if so",
+            "ping - URLs to ping",
+            "rel - Relationship between the document containing the hyperlink and the destination resource",
+            "hreflang - Language of the linked resource",
+            "type - Hint for the type of the referenced resource",
+            "referrerpolicy - Referrer policy for fetches initiated by the element"
+        ],
+        "accessibility considerations": [
+            "If the element has an href attribute: for authors; for implementers.",
+            "Otherwise: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLAnchorElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "",
+            "  [CEReactions] attribute DOMString target;",
+            "  [CEReactions] attribute DOMString download;",
+            "  [CEReactions] attribute USVString ping;",
+            "  [CEReactions] attribute DOMString rel;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList relList;",
+            "  [CEReactions] attribute DOMString hreflang;",
+            "  [CEReactions] attribute DOMString type;",
+            "",
+            "  [CEReactions] attribute DOMString text;",
+            "",
+            "  [CEReactions] attribute DOMString referrerPolicy;",
+            "",
+            "  // also has obsolete members",
+            "};",
+            "HTMLAnchorElement includes HTMLHyperlinkElementUtils;"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
