@@ -177,6 +177,48 @@
             "HTMLLinkElement includes LinkStyle;"
         ]
     },
+    "meta": {
+        "categories": [
+            "metadata content",
+            "If the itemprop attribute is present: flow content.",
+            "If the itemprop attribute is present: phrasing content."
+        ],
+        "context": [
+            "If the charset attribute is present, or if the element's http-equiv attribute is in the Encoding declaration state: in a [head] element.",
+            "If the http-equiv attribute is present but not in the Encoding declaration state: in a [head] element.",
+            "If the http-equiv attribute is present but not in the Encoding declaration state: in a [noscript] element that is a child of a [head] element.",
+            "If the name attribute is present: where metadata content is expected.",
+            "If the itemprop attribute is present: where metadata content is expected.",
+            "If the itemprop attribute is present: where phrasing content is expected."
+        ],
+        "content": [],
+        "tag omission": [
+            "No end tag."
+        ],
+        "attributes": [
+            "global attributes",
+            "name - Metadate name",
+            "http-equiv - Pragma directive",
+            "content - Value of the element",
+            "charset - Character encoding declaration",
+            "media - Applicable media"
+        ],
+        "accessibility": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLMetaElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  [CEReactions] attribute DOMString name;",
+            "  [CEReactions] attribute DOMString httpEquiv;",
+            "  [CEReactions] attribute DOMString content;",
+            "  [CEReactions] attribute DOMString media;",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "context": [],
