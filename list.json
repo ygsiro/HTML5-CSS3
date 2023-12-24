@@ -84,6 +84,36 @@
             "};"
         ]
     },
+    "base": {
+        "categories": [
+            "metadata content"
+        ],
+        "context": [
+            "In a [head] element containing no other [base] elements."
+        ],
+        "content": [],
+        "tag omission": [
+            "No end tag."
+        ],
+        "attributes": [
+            "global attributes",
+            "href - Document base URL",
+            "target - Default navigable for hyperlink navigation and from submission"
+        ],
+        "accessibility": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLBaseElement: HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString href;",
+            "  [CEReactions] attribute DOMString target;",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "context": [],
