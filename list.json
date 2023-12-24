@@ -261,7 +261,7 @@
             "As the second element in an [html] element."
         ],
         "content": [
-            "Flow content"
+            "flow content"
         ],
         "tag omission": [
             "A [body] element's start tag can be omitted if the element is empty, or if the first thing inside the [body] element is not ASCII whitespace or a comment, except if the first thing inside the [body] element is a [meta], [noscript], [link], [script], [style], or [template] element.",
@@ -297,6 +297,32 @@
             "  // also has obsolete members",
             "};",
             "HTMLBodyElement includes WindowEventHandlers;"
+        ]
+    },
+    "article": {
+        "categories": [
+            "flow content",
+            "sectioning content",
+            "palpable content"
+        ],
+        "context": [
+            "Where sectioning content is expected."
+        ],
+        "content": [
+            "flow content"
+        ],
+        "tag omission": [
+            "Neither tag is omissible."
+        ],
+        "attributes": [
+            "global attributes"
+        ],
+        "accessibility": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
         ]
     },
     "copy": {
