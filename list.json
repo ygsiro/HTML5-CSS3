@@ -5,7 +5,7 @@
             "As document's document element.",
             "Wherever a subdocument fragment is allowed in a compound document."
         ],
-        "content": [
+        "content model": [
             "A [head] element followed by a [body] element."
         ],
         "tag omission in text/html": [
@@ -33,7 +33,7 @@
         "contexts in which this element can be used": [
             "As the first element in an [html] element."
         ],
-        "content": [
+        "content model": [
             "If the document is an [iframe] srcdoc document or if title information is available from a higher-level protocol: Zero or more elements of metadata content, of which no more than one is a [title] element and no more than one is a [base] element.",
             "Otherwise: One or more elements of metadata content, of which exactly one is a [title] element and no more than one is a [base] element."
         ],
@@ -62,7 +62,7 @@
         "contexts in which this element can be used": [
             "In a [head] element containing no other [title] elements."
         ],
-        "content": [
+        "content model": [
             "Text that is not inter-element whitespace."
         ],
         "tag omission in text/html": [
@@ -91,7 +91,7 @@
         "contexts in which this element can be used": [
             "In a [head] element containing no other [base] elements."
         ],
-        "content": [],
+        "content model": [],
         "tag omission in text/html": [
             "No end tag."
         ],
@@ -125,7 +125,7 @@
             "In a [noscript] element that is a child of a [head] element.",
             "If the element is allowed in the body: where phrasing content is expected."
         ],
-        "content": [],
+        "content model": [],
         "tag omission in text/html": [
             "No end tag."
         ],
@@ -191,7 +191,7 @@
             "If the itemprop attribute is present: where metadata content is expected.",
             "If the itemprop attribute is present: where phrasing content is expected."
         ],
-        "content": [],
+        "content model": [],
         "tag omission in text/html": [
             "No end tag."
         ],
@@ -227,7 +227,7 @@
             "Where metadata content is expected.",
             "In a [noscript] element that is a child of a [head] element."
         ],
-        "content": [
+        "content model": [
             "Text that gives a conformant style sheet."
         ],
         "tag omission in text/html": [
@@ -260,7 +260,7 @@
         "contexts in which this element can be used": [
             "As the second element in an [html] element."
         ],
-        "content": [
+        "content model": [
             "flow content"
         ],
         "tag omission in text/html": [
@@ -308,7 +308,7 @@
         "contexts in which this element can be used": [
             "Where sectioning content is expected."
         ],
-        "content": [
+        "content model": [
             "flow content"
         ],
         "tag omission in text/html": [
@@ -334,7 +334,7 @@
         "contexts in which this element can be used": [
             "Where sectioning content is expected."
         ],
-        "content": [
+        "content model": [
             "flow content"
         ],
         "tag omission in text/html": [
@@ -360,7 +360,7 @@
         "contexts in which this element can be used": [
             "Where sectioning content is expected."
         ],
-        "content": [
+        "content model": [
             "flow content"
         ],
         "tag omission in text/html": [
@@ -386,7 +386,7 @@
         "contexts in which this element can be used": [
             "Where sectioning content is expected."
         ],
-        "content": [
+        "content model": [
             "flow content"
         ],
         "tag omission in text/html": [
@@ -413,7 +413,7 @@
             "As a child of an [hgroup] element.",
             "Where heading content is expected."
         ],
-        "content": [
+        "content model": [
             "Phrasing content"
         ],
         "tag omission in text/html": [
@@ -443,7 +443,7 @@
         "contexts in which this element can be used": [
             "Where heading content is expected."
         ],
-        "content": [
+        "content model": [
             "Zero or more [p] elements, followed by one [h1], [h2], [h3], [h4], [h5], or [h6] element, followed by zero or more [p] elements, optionally intermixed with script-supporting elements."
         ],
         "tag omission in text/html": [
@@ -468,7 +468,32 @@
         "contexts in which this element can be used": [
             "Where flow content is expected."
         ],
-        "content": [
+        "content model": [
+            "flow content, but with no [header] or [footer] element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "If there is an ancestor sectioning content element: for authors; for implementers.",
+            "Otherwise: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "footer": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
             "flow content, but with no [header] or [footer] element descendants."
         ],
         "tag omission in text/html": [
@@ -488,7 +513,7 @@
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
-        "content": [],
+        "content model": [],
         "tag omission in text/html": [],
         "content attributes": [
             "global attributes"
