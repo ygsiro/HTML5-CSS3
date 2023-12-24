@@ -564,6 +564,34 @@
             "};"
         ]
     },
+    "hr": {
+        "categories": [
+            "flow content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected.",
+            "As a child of a [select] element."
+        ],
+        "content model": [],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLHRElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
