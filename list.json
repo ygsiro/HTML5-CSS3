@@ -460,6 +460,31 @@
             "Uses HTMLElement."
         ]
     },
+    "header": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content": [
+            "flow content, but with no [header] or [footer] element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "If there is an ancestor sectioning content element: for authors; for implementers.",
+            "Otherwise: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
