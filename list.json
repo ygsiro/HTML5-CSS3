@@ -2030,6 +2030,48 @@
             "};"
         ]
     },
+    "embed": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "interactive content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "src — Address of the resource",
+            "type — Type of embedded resource",
+            "width — Horizontal dimension",
+            "height — Vertical dimension",
+            "Any other attribute that has no namespace (see prose)."
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLEmbedElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [CEReactions] attribute DOMString width;",
+            "  [CEReactions] attribute DOMString height;",
+            "  Document? getSVGDocument();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
