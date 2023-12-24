@@ -720,6 +720,36 @@
             "};"
         ]
     },
+    "menu": {
+        "categories": [
+            "flow content",
+            "if the element's children include at least one [li] element: palpable content."
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "Zero or more [li] and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLMenuElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
