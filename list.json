@@ -1783,6 +1783,34 @@
             "Uses HTMLElement."
         ]
     },
+    "ins": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "transparent"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "cite - Link to the source of the quotation or more information about the edit",
+            "datetime - Date and (optionally) time of the change"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLModElement."
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
