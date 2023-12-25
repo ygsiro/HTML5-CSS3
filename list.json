@@ -2341,6 +2341,55 @@
             "HTMLAreaElement includes HTMLHyperlinkElementUtils;"
         ]
     },
+    "table": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "In this order: optionally a [caption] element, followed by zero or more [colgroup] elements, followed optionally by a [thead] element, followed by either zero or more [tbody] elements or one or more [tr] elements, followed optionally by a [tfoot] element, optionally intermixed with one or more script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTableElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute HTMLTableCaptionElement? caption;",
+            "  HTMLTableCaptionElement createCaption();",
+            "  [CEReactions] undefined deleteCaption();",
+            "  ",
+            "  [CEReactions] attribute HTMLTableSectionElement? tHead;",
+            "  HTMLTableSectionElement createTHead();",
+            "  [CEReactions] undefined deleteTHead();",
+            "  ",
+            "  [CEReactions] attribute HTMLTableSectionElement? tFoot;",
+            "  HTMLTableSectionElement createTFoot();",
+            "  [CEReactions] undefined deleteTFoot();",
+            "  ",
+            "  [SameObject] readonly attribute HTMLCollection tBodies;",
+            "  HTMLTableSectionElement createTBody();",
+            "  ",
+            "  [SameObject] readonly attribute HTMLCollection rows;",
+            "  HTMLTableRowElement insertRow(optional long index = -1);",
+            "  [CEReactions] undefined deleteRow(long index);",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
