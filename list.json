@@ -3501,5 +3501,39 @@
         "DOM interface": [
             "Uses HTMLElement."
         ]
+    },
+    "dialog": {
+        "categories": [
+            "flow content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "open - Whether the dialog box is showing"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLDialogElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute boolean open;",
+            "  attribute DOMString returnValue;",
+            "  [CEReactions] undefined show();",
+            "  [CEReactions] undefined showModal();",
+            "  [CEReactions] undefined close(optional DOMString returnValue);",
+            "};"
+        ]
     }
 }
