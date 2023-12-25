@@ -3662,5 +3662,43 @@
             "  [CEReactions] attribute boolean shadowRootDelegatesFocus;",
             "};"
         ]
+    },
+    "slot": {
+        "categories": [
+            "flow content",
+            "phrasing content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "Transparent"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "name - Name of shadow tree slot"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLSlotElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString name;",
+            "  sequence<Node> assignedNodes(optional AssignedNodesOptions options = {});",
+            "  sequence<Element> assignedElements(optional AssignedNodesOptions options = {});",
+            "  undefined assign((Element or Text)... nodes);",
+            "};",
+            "  ",
+            "dictionary AssignedNodesOptions {",
+            "  boolean flatten = false;",
+            "};"
+        ]
     }
 }
