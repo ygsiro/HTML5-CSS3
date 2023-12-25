@@ -3417,11 +3417,17 @@
             "};"
         ]
     },
-    "copy": {
+    "legend": {
         "categories": [],
-        "contexts in which this element can be used": [],
-        "content model": [],
-        "tag omission in text/html": [],
+        "contexts in which this element can be used": [
+            "As the first child of a [fieldset] element."
+        ],
+        "content model": [
+            "Phrasing content, optionally intermixed with heading content."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
         "content attributes": [
             "global attributes"
         ],
@@ -3429,6 +3435,15 @@
             "for authors",
             "for implementers"
         ],
-        "DOM interface": []
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLLegendElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  readonly attribute HTMLFormElement? form;",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
     }
 }
