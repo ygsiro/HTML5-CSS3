@@ -3479,5 +3479,27 @@
             "  [CEReactions] attribute boolean open;",
             "};"
         ]
+    },
+    "summary": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As the first child of a details element."
+        ],
+        "content model": [
+            "Phrasing content, optionally intermixed with heading content."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
     }
 }
