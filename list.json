@@ -3535,5 +3535,64 @@
             "  [CEReactions] undefined close(optional DOMString returnValue);",
             "};"
         ]
+    },
+    "script": {
+        "categories": [
+            "metadata content",
+            "flow content",
+            "phrasing content",
+            "script-supporting element"
+        ],
+        "contexts in which this element can be used": [
+            "Where metadata content is expected.",
+            "Where phrasing content is expected.",
+            "Where script-supporting elements are expected."
+        ],
+        "content model": [
+            "If there is no src attribute, depends on the value of the type attribute, but must match script content restrictions.",
+            "If there is a src attribute, the element must be either empty or contain only script documentation that also matches script content restrictions."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "src — Address of the resource",
+            "type — Type of script",
+            "nomodule — Prevents execution in user agents that support module scripts",
+            "async — Execute script when available, without blocking while fetching",
+            "defer — Defer script execution",
+            "crossorigin — How the element handles crossorigin requests",
+            "integrity — Integrity metadata used in Subresource Integrity checks [SRI]",
+            "referrerpolicy — Referrer policy for fetches initiated by the element",
+            "blocking — Whether the element is potentially render-blocking",
+            "fetchpriority — Sets the priority for fetches initiated by the element"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLScriptElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [CEReactions] attribute boolean noModule;",
+            "  [CEReactions] attribute boolean async;",
+            "  [CEReactions] attribute boolean defer;",
+            "  [CEReactions] attribute DOMString? crossOrigin;",
+            "  [CEReactions] attribute DOMString text;",
+            "  [CEReactions] attribute DOMString integrity;",
+            "  [CEReactions] attribute DOMString referrerPolicy;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList blocking;",
+            "  [CEReactions] attribute DOMString fetchPriority;",
+            "  ",
+            "  static boolean supports(DOMString type);",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
     }
 }
