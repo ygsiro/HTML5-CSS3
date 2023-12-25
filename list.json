@@ -2673,6 +2673,68 @@
             "Uses HTMLTableCellElement, as defined for [td] elements."
         ]
     },
+    "form": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "flow content, but with no [form] element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "accept-charset - Character encodings to use for form submission",
+            "action - URL to use for form submission",
+            "autocomplete - Default setting for autofill feature for controls in the form",
+            "enctype - Entry list encoding type to use for form submission",
+            "method - Variant to use for form submission",
+            "name - Name of form to use in the document.forms API",
+            "novalidate - Bypass form control validation for form submission",
+            "target - Navigable for form submission",
+            "rel - none"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window,",
+            " LegacyOverrideBuiltIns,",
+            " LegacyUnenumerableNamedProperties]",
+            "interface HTMLFormElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString acceptCharset;",
+            "  [CEReactions] attribute USVString action;",
+            "  [CEReactions] attribute DOMString autocomplete;",
+            "  [CEReactions] attribute DOMString enctype;",
+            "  [CEReactions] attribute DOMString encoding;",
+            "  [CEReactions] attribute DOMString method;",
+            "  [CEReactions] attribute DOMString name;",
+            "  [CEReactions] attribute boolean noValidate;",
+            "  [CEReactions] attribute DOMString target;",
+            "  [CEReactions] attribute DOMString rel;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList relList;",
+            "  ",
+            "  [SameObject] readonly attribute HTMLFormControlsCollection elements;",
+            "  readonly attribute unsigned long length;",
+            "  getter Element (unsigned long index);",
+            "  getter (RadioNodeList or Element) (DOMString name);",
+            "  ",
+            "  undefined submit();",
+            "  undefined requestSubmit(optional HTMLElement? submitter = null);",
+            "  [CEReactions] undefined reset();",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
