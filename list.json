@@ -2390,6 +2390,33 @@
             "};"
         ]
     },
+    "caption": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As the first element child of a [table] element."
+        ],
+        "content model": [
+            "flow content, but with no descendant [table] elements."
+        ],
+        "tag omission in text/html": [
+            "A [caption] element's end tag can be omitted if the [caption] element is not immediately followed by ASCII whitespace or a comment."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTableCaptionElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
