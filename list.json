@@ -3114,6 +3114,51 @@
             "};"
         ]
     },
+    "option": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [select] element.",
+            "As a child of a [datalist] element.",
+            "As a child of a [optgroup] element."
+        ],
+        "content model": [
+            "If the element has a label attribute and a value attribute: Nothing.",
+            "If the element has a label attribute but no value attribute: Text.",
+            "If the element has no label attribute and is not a child of a datalist element: Text that is not inter-element whitespace.",
+            "If the element has no label attribute and is a child of a datalist element: Text."
+        ],
+        "tag omission in text/html": [
+            "An [option] element's end tag can be omitted if the [option] element is immediately followed by another [option] element, if it is immediately followed by an [optgroup] element, if it is immediately followed by an [hr] element, or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes",
+            "disabled — Whether the form control is disabled",
+            "label — User-visible label",
+            "selected — Whether the option is selected by default",
+            "value — Value to be used for form submission"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window,",
+            " LegacyFactoryFunction=Option(optional DOMString text = \"\", optional DOMString value, optional boolean defaultSelected = false, optional boolean selected = false)]",
+            "interface HTMLOptionElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "",
+            "  [CEReactions] attribute boolean disabled;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute DOMString label;",
+            "  [CEReactions] attribute boolean defaultSelected;",
+            "  attribute boolean selected;",
+            "  [CEReactions] attribute DOMString value;",
+            "",
+            "  [CEReactions] attribute DOMString text;",
+            "  readonly attribute long index;",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
