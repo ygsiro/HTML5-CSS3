@@ -3239,6 +3239,56 @@
             "};"
         ]
     },
+    "output": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "Listed, labelable, resettable, and autocapitalize-inheriting form-associated element.",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "for — Specifies controls from which the output was calculated",
+            "form — Associates the element with a [form] element",
+            "name — Name of the element to use in the form.elements API."
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLOutputElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList htmlFor;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute DOMString name;",
+            "  ",
+            "  readonly attribute DOMString type;",
+            "  [CEReactions] attribute DOMString defaultValue;",
+            "  [CEReactions] attribute DOMString value;",
+            "  ",
+            "  readonly attribute boolean willValidate;",
+            "  readonly attribute ValidityState validity;",
+            "  readonly attribute DOMString validationMessage;",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "  undefined setCustomValidity(DOMString error);",
+            "  ",
+            "  readonly attribute NodeList labels;",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
