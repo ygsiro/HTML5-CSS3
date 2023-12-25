@@ -1,850 +1,3749 @@
 {
-    "a": {
-        "description": "ハイパーリンクを作成する",
-        "category": [
-            "flow",
-            "phrasing/phrasingコンテンツのみ含む場合",
-            "interactive",
-            "palpable"
-        ]
-    },
-    "abbr": {
-        "description": "略語を示す",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "address": {
-        "description": "連絡先情報",
-        "category": [
-            "flow",
-            "palpable"
-        ]
-    },
-    "area": {
-        "description": "クリック可能な領域",
-        "category": [
-            "flow/map要素の子要素の場合",
-            "phrasing/map要素の子要素の場合"
-        ]
-    },
-    "article": {
-        "description": "自己完結した構成物",
-        "category": [
-            "flow",
-            "sectioning",
-            "palpable"
-        ]
-    },
-    "aside": {
-        "description": "メインコンテンツと間接的な関係しかない文書",
-        "category": [
-            "flow",
-            "sectioning"
-        ]
-    },
-    "audio": {
-        "description": "音声コンテンツ",
-        "category": [
-            "flow",
-            "phrasing",
-            "embedded",
-            "interactive/controls属性がある場合",
-            "palpable/controls属性がある場合"
-        ]
-    },
-    "b": {
-        "description": "注目付け",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "base": {
-        "description": "相対URLの基点",
-        "category": [
-            "meta"
-        ]
-    },
-    "bdi": {
-        "description": "書字方向分離",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "bdo": {
-        "description": "双方向文字列上書き",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "blockquote": {
-        "description": "引用",
-        "category": [
-            "flow",
-            "sectioning-root",
-            "palpable"
-        ]
-    },
-    "body": {
-        "description": "コンテンツ",
-        "category": [
-            "sectioning-root"
-        ]
-    },
-    "br": {
-        "description": "改行",
-        "category": [
-            "flow",
-            "phrasing"
-        ]
-    },
-    "button": {
-        "description": "ボタン",
-        "category": [
-            "flow",
-            "phrasing",
-            "interactive",
-            "form",
-            "palpable"
-        ]
-    },
-    "canvas": {
-        "description": "キャンバス",
-        "category": [
-            "flow",
-            "phrasing",
-            "embedded",
-            "palpable"
-        ]
-    },
-    "caption": {
-        "description": "表キャプション",
-        "category": [
-            ""
-        ]
-    },
-    "cite": {
-        "description": "引用元",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "code": {
-        "description": "コード",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "col": {
-        "description": "表の列要素",
-        "category": [
-            ""
-        ]
-    },
-    "colgroup": {
-        "description": "表の列グループ",
-        "category": [
-            ""
-        ]
-    },
-    "data": {
-        "description": "機械が読むためのデータ",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "datalist": {
-        "description": "データリスト",
-        "category": [
-            "flow",
-            "phrasing"
-        ]
-    },
-    "dd": {
-        "description": "dt要素の説明",
-        "category": [
-            ""
-        ]
-    },
-    "del": {
-        "description": "",
-        "category": [
-            "flow",
-            "phrasing/phrasingコンテンツのみ含む場合"
-        ]
-    },
-    "details": {
-        "description": "詳細折りたたみ",
-        "category": [
-            "flow",
-            "sectioning-root",
-            "interactive",
-            "palpable"
-        ]
-    },
-    "dfn": {
-        "description": "用語定義",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "dialog": {
-        "description": "ダイアログ",
-        "category": [
-            "flow",
-            "sectioning-root"
-        ]
-    },
-    "div": {
-        "description": "汎用区分要素",
-        "category": [
-            "flow",
-            "palpable"
-        ]
-    },
-    "dl": {
-        "description": "説明リスト",
-        "category": [
-            "flow",
-            "palpable/子要素が名前と値のグループの場合"
-        ]
-    },
-    "dt": {
-        "description": "説明用語",
-        "category": [
-            ""
-        ]
-    },
-    "em": {
-        "description": "強調",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "embed": {
-        "description": "埋込外部コンテンツ",
-        "category": [
-            "flow",
-            "phrasing",
-            "embedded",
-            "interactive",
-            "palpable"
-        ]
-    },
-    "fieldset": {
-        "description": "グループ化",
-        "category": [
-            "flow",
-            "form",
-            "sectioning-root",
-            "palpable"
-        ]
-    },
-    "figcaption": {
-        "description": "図のキャプション",
-        "category": [
-            ""
-        ]
-    },
-    "figure": {
-        "description": "キャプションがつけられる図形",
-        "category": [
-            "flow",
-            "palpable"
-        ]
-    },
-    "footer": {
-        "description": "フッター",
-        "category": [
-            "flow",
-            "palpable"
-        ]
-    },
-    "form": {
-        "description": "フォーム",
-        "category": [
-            "flow",
-            "palpable"
-        ]
-    },
-    "h1": {
-        "description": "見出し",
-        "category": [
-            "flow",
-            "heading",
-            "palpable"
-        ]
-    },
-    "h2": {
-        "description": "見出し",
-        "category": [
-            "flow",
-            "heading",
-            "palpable"
-        ]
-    },
-    "h3": {
-        "description": "見出し",
-        "category": [
-            "flow",
-            "heading",
-            "palpable"
-        ]
-    },
-    "h4": {
-        "description": "見出し",
-        "category": [
-            "flow",
-            "heading",
-            "palpable"
-        ]
-    },
-    "h5": {
-        "description": "見出し",
-        "category": [
-            "flow",
-            "heading",
-            "palpable"
-        ]
-    },
-    "h6": {
-        "description": "見出し",
-        "category": [
-            "flow",
-            "heading",
-            "palpable"
+    "html": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As document's document element.",
+            "Wherever a subdocument fragment is allowed in a compound document."
+        ],
+        "content model": [
+            "A [head] element followed by a [body] element."
+        ],
+        "tag omission in text/html": [
+            "An [html] element's start tag can be omitted if the first thing inside the [html] element is not a comment.",
+            "An [html] element's end tag can be omitted if the [html] element is not immediately followed by a comment."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLHtmlElement: HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
         ]
     },
     "head": {
-        "description": "文書メタデータ",
-        "category": [
-            ""
-        ]
-    },
-    "header": {
-        "description": "ヘッダー",
-        "category": [
-            "flow",
-            "palpable"
-        ]
-    },
-    "hgroup": {
-        "description": "見出しのグループ化",
-        "category": [
-            "flow",
-            "heading",
-            "palpable"
-        ]
-    },
-    "hr": {
-        "description": "区切り",
-        "category": [
-            "flow"
-        ]
-    },
-    "html": {
-        "description": "HTML文書",
-        "category": [
-            ""
-        ]
-    },
-    "i": {
-        "description": "慣用テキスト",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "iframe": {
-        "description": "インラインフレーム",
-        "category": [
-            "flow",
-            "phrasing",
-            "embedded",
-            "interactive",
-            "palpable"
-        ]
-    },
-    "img": {
-        "description": "画像埋め込み",
-        "category": [
-            "flow",
-            "phrasing",
-            "embedded",
-            "interactive/usemap属性がある場合",
-            "palpable"
-        ]
-    },
-    "input": {
-        "description": "入力欄",
-        "category": [
-            "flow",
-            "phrasing",
-            "interactive/hiddenでない場合",
-            "form",
-            "palpable"
-        ]
-    },
-    "ins": {
-        "description": "追加範囲",
-        "category": [
-            "flow",
-            "phrasing/phrasingコンテンツのみ含む場合"
-        ]
-    },
-    "kbd": {
-        "description": "キーボード",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "label": {
-        "description": "ラベル",
-        "category": [
-            "flow",
-            "phrasing",
-            "interactive",
-            "form",
-            "palpable"
-        ]
-    },
-    "legend": {
-        "description": "フォームのキャプション",
-        "category": [
-            ""
-        ]
-    },
-    "li": {
-        "description": "リストの項目",
-        "category": [
-            ""
-        ]
-    },
-    "link": {
-        "description": "外部リソースへのリンク",
-        "category": [
-            "meta",
-            "flow/itemprop属性がある場合",
-            "phrasing/itemprop属性がある場合"
-        ]
-    },
-    "main": {
-        "description": "主要コンテンツ",
-        "category": [
-            "flow",
-            "palpable"
-        ]
-    },
-    "map": {
-        "description": "イメージマップ",
-        "category": [
-            "flow",
-            "phrasing/phrasingコンテンツのみ含む場合",
-            "palpable"
-        ]
-    },
-    "mark": {
-        "description": "テキストハイライト",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "menu": {
-        "description": "メニュー",
-        "category": [
-            "flow",
-            "interactive/toolbarでない場合",
-            "palpable/1個以上li要素がある場合"
-        ]
-    },
-    "meta": {
-        "description": "メタデータ",
-        "category": [
-            "meta",
-            "flow/itemprop属性がある場合",
-            "phrasing/itemprop属性がある場合"
-        ]
-    },
-    "meter": {
-        "description": "メーター要素",
-        "category": [
-            "flow",
-            "phrasing",
-            "form",
-            "palpable"
-        ]
-    },
-    "nav": {
-        "description": "ナビゲーション",
-        "category": [
-            "flow",
-            "sectioning",
-            "palpable"
-        ]
-    },
-    "noscript": {
-        "description": "スクリプト未対応",
-        "category": [
-            "meta",
-            "phrasing",
-            "flow"
-        ]
-    },
-    "object": {
-        "description": "外部オブジェクト要素",
-        "category": [
-            "flow",
-            "phrasing",
-            "embedded",
-            "interactive/usemap属性がある場合",
-            "form",
-            "palpable"
-        ]
-    },
-    "ol": {
-        "description": "順序付きリスト",
-        "category": [
-            "flow",
-            "palpable/1個以上li要素がある場合"
-        ]
-    },
-    "optgroup": {
-        "description": "選択肢のグループ化",
-        "category": [
-            ""
-        ]
-    },
-    "option": {
-        "description": "選択肢",
-        "category": [
-            "flow"
-        ]
-    },
-    "output": {
-        "description": "出力",
-        "category": [
-            "flow",
-            "phrasing",
-            "form",
-            "palpable"
-        ]
-    },
-    "p": {
-        "description": "段落",
-        "category": [
-            "flow",
-            "palpable"
-        ]
-    },
-    "picture": {
-        "description": "画像",
-        "category": [
-            "flow",
-            "phrasing",
-            "embedded"
-        ]
-    },
-    "portal": {
-        "description": "ポータル",
-        "category": [
-            ""
-        ]
-    },
-    "pre": {
-        "description": "整形済みテキスト要素",
-        "category": [
-            "flow",
-            "palpable"
-        ]
-    },
-    "progress": {
-        "description": "進捗インジゲーター",
-        "category": [
-            "flow",
-            "phrasing",
-            "form",
-            "palpable"
-        ]
-    },
-    "q": {
-        "description": "インライン引用",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "rp": {
-        "description": "ルビの代替え表示用括弧",
-        "category": [
-            ""
-        ]
-    },
-    "rt": {
-        "description": "ルビのテキスト",
-        "category": [
-            ""
-        ]
-    },
-    "ruby": {
-        "description": "ルビ注釈",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "s": {
-        "description": "取り消し",
-        "category": [
-            "flow",
-            "phrasing"
-        ]
-    },
-    "samp": {
-        "description": "サンプル出力",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "script": {
-        "description": "スクリプト",
-        "category": [
-            "meta",
-            "phrasing",
-            "script",
-            "flow"
-        ]
-    },
-    "search": {
-        "description": "検索",
-        "category": [
-            "flow",
-            "palpable"
-        ]
-    },
-    "sectioning": {
-        "description": "汎用セクション",
-        "category": [
-            "flow",
-            "sectioning",
-            "palpable"
-        ]
-    },
-    "select": {
-        "description": "選択肢",
-        "category": [
-            "flow",
-            "phrasing",
-            "interactive",
-            "form"
-        ]
-    },
-    "slot": {
-        "description": "スロット",
-        "category": [
-            "flow",
-            "phrasing"
-        ]
-    },
-    "small": {
-        "description": "附随コメント",
-        "category": [
-            "flow",
-            "phrasing"
-        ]
-    },
-    "source": {
-        "description": "ソース",
-        "category": [
-            ""
-        ]
-    },
-    "span": {
-        "description": "インラインコンテンツ区分",
-        "category": [
-            "flow",
-            "phrasing"
-        ]
-    },
-    "strong": {
-        "description": "強い重要性要素",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "style": {
-        "description": "スタイル情報",
-        "category": [
-            "meta"
-        ]
-    },
-    "sub": {
-        "description": "下付き文字",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "summary": {
-        "description": "概要明示",
-        "category": [
-            ""
-        ]
-    },
-    "sup": {
-        "description": "上付き文字要素",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
-        ]
-    },
-    "table": {
-        "description": "表要素",
-        "category": [
-            "flow"
-        ]
-    },
-    "tbody": {
-        "description": "テーブル本体",
-        "category": [
-            ""
-        ]
-    },
-    "td": {
-        "description": "表データセル",
-        "category": [
-            "sectioning-root"
-        ]
-    },
-    "template": {
-        "description": "コンテンツテンプレート",
-        "category": [
-            "flow",
-            "script",
-            "meta",
-            "phrasing"
-        ]
-    },
-    "textarea": {
-        "description": "テキストエリア",
-        "category": [
-            "flow",
-            "phrasing",
-            "interactive",
-            "form"
-        ]
-    },
-    "tfoot": {
-        "description": "テーブルフッター",
-        "category": [
-            ""
-        ]
-    },
-    "th": {
-        "description": "テーブル見出し",
-        "category": [
-            ""
-        ]
-    },
-    "thead": {
-        "description": "テーブルヘッダー",
-        "category": [
-            ""
-        ]
-    },
-    "time": {
-        "description": "時刻要素",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As the first element in an [html] element."
+        ],
+        "content model": [
+            "If the document is an [iframe] srcdoc document or if title information is available from a higher-level protocol: Zero or more elements of metadata content, of which no more than one is a [title] element and no more than one is a [base] element.",
+            "Otherwise: One or more elements of metadata content, of which exactly one is a [title] element and no more than one is a [base] element."
+        ],
+        "tag omission in text/html": [
+            "A [head] element's start tag can be omitted if the element is empty, or if the first thing inside the [head] element is an element.",
+            "A [head] element's end tag can be omitted if the [head] element is not immediately followed by ASCII whitespace or a comment."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLHeadElement: HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "};"
         ]
     },
     "title": {
-        "description": "文書のタイトル",
-        "category": [
-            "meta"
+        "categories": [
+            "metadata content"
+        ],
+        "contexts in which this element can be used": [
+            "In a [head] element containing no other [title] elements."
+        ],
+        "content model": [
+            "Text that is not inter-element whitespace."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTitleElement: HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString text;",
+            "};"
         ]
     },
-    "tr": {
-        "description": "テーブルの行要素",
-        "category": [
-            ""
+    "base": {
+        "categories": [
+            "metadata content"
+        ],
+        "contexts in which this element can be used": [
+            "In a [head] element containing no other [base] elements."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "href - Document base URL",
+            "target - Default navigable for hyperlink navigation and from submission"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLBaseElement: HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString href;",
+            "  [CEReactions] attribute DOMString target;",
+            "};"
         ]
     },
-    "track": {
-        "description": "埋め込みテキストトラック要素",
-        "category": [
-            ""
+    "link": {
+        "categories": [
+            "metadata content",
+            "If the element is allowed in the body: flow content.",
+            "If the element is allowed in the body: phrasing content."
+        ],
+        "contexts in which this element can be used": [
+            "Where metadata content is expected.",
+            "In a [noscript] element that is a child of a [head] element.",
+            "If the element is allowed in the body: where phrasing content is expected."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "href - Address of the hyperlink",
+            "crossorigin - How the element handles crossorigin requests",
+            "rel - Relationship between the document containing the hyperlink and the destination resource",
+            "media - Applicable media",
+            "integrity - Integrity metadata used in Subresource Integrity checks",
+            "hreflang - Language of the linked resource",
+            "type - Hint for the type of the referenced resource",
+            "referrerpolicy - Referrer policy for fetches initiated by the element",
+            "sizes - Sizes of the icons (for rel=\"icon\")",
+            "imagesrcset - Images to use in different situations, e.g., high-resolution displays, small monitors, etc. (for rel=\"preload\")",
+            "imagesizes - Image sizes for different page layouts (for rel=\"preload\")",
+            "as - Potential destination for a preload request (for rel=\"preload\" and rel=\"modulepreload\")",
+            "blocking - Whether the element is potentially render-blocking",
+            "color - Color to use when customizing a site's icon (for rel=\"mask-icon\")",
+            "disabled - Whether the link is disabled",
+            "fetchpriority - Sets the priority for fetches initiated by the element. Also, the title attribute has special semantics on this element: Title of the link; CSS style sheet set name"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLLinkElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  [CEReactions] attribute USVString href;",
+            "  [CEReactions] attribute DOMString? crossOrigin;",
+            "  [CEReactions] attribute DOMString rel;",
+            "  [CEReactions] attribute DOMString as;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList relList;",
+            "  [CEReactions] attribute DOMString media;",
+            "  [CEReactions] attribute DOMString integrity;",
+            "  [CEReactions] attribute DOMString hreflang;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList sizes;",
+            "  [CEReactions] attribute USVString imageSrcset;",
+            "  [CEReactions] attribute DOMString imageSizes;",
+            "  [CEReactions] attribute DOMString referrerPolicy;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList blocking;",
+            "  [CEReactions] attribute boolean disabled;",
+            "  [CEReactions] attribute DOMString fetchPriority;",
+            "  // also has obsolete members",
+            "};",
+            "HTMLLinkElement includes LinkStyle;"
         ]
     },
-    "u": {
-        "description": "非言語的注釈",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
+    "meta": {
+        "categories": [
+            "metadata content",
+            "If the itemprop attribute is present: flow content.",
+            "If the itemprop attribute is present: phrasing content."
+        ],
+        "contexts in which this element can be used": [
+            "If the charset attribute is present, or if the element's http-equiv attribute is in the Encoding declaration state: in a [head] element.",
+            "If the http-equiv attribute is present but not in the Encoding declaration state: in a [head] element.",
+            "If the http-equiv attribute is present but not in the Encoding declaration state: in a [noscript] element that is a child of a [head] element.",
+            "If the name attribute is present: where metadata content is expected.",
+            "If the itemprop attribute is present: where metadata content is expected.",
+            "If the itemprop attribute is present: where phrasing content is expected."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "name - Metadate name",
+            "http-equiv - Pragma directive",
+            "content - Value of the element",
+            "charset - Character encoding declaration",
+            "media - Applicable media"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLMetaElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  [CEReactions] attribute DOMString name;",
+            "  [CEReactions] attribute DOMString httpEquiv;",
+            "  [CEReactions] attribute DOMString content;",
+            "  [CEReactions] attribute DOMString media;",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "style": {
+        "categories": [
+            "metadata content"
+        ],
+        "contexts in which this element can be used": [
+            "Where metadata content is expected.",
+            "In a [noscript] element that is a child of a [head] element."
+        ],
+        "content model": [
+            "Text that gives a conformant style sheet."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "media - Applicable media",
+            "blocking - Whether the element is potentially render-blocking",
+            "Also, the title attribute has special semantics on this element: CSS style sheet set name."
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLStyleElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  attribute boolean disabled;",
+            "  [CEReactions] attribute DOMString media;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList blocking;",
+            "  // also has obsolete members",
+            "};",
+            "HTMLStyleElement includes LinkStyle;"
+        ]
+    },
+    "body": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As the second element in an [html] element."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "A [body] element's start tag can be omitted if the element is empty, or if the first thing inside the [body] element is not ASCII whitespace or a comment, except if the first thing inside the [body] element is a [meta], [noscript], [link], [script], [style], or [template] element.",
+            "A [body] element's end tag can be omitted if the [body] element is not immediately followed by a comment."
+        ],
+        "content attributes": [
+            "global attributes",
+            "onafterprint",
+            "onbeforeprint",
+            "onbeforeunload",
+            "onhashchange",
+            "onlanguagechange",
+            "onmessage",
+            "onmessageerror",
+            "onoffline",
+            "ononline",
+            "onpagehide",
+            "onpageshow",
+            "onpopstate",
+            "onrejectionhandled",
+            "onstorage",
+            "onunhandledrejection",
+            "onunload"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLBodyElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  // also has obsolete members",
+            "};",
+            "HTMLBodyElement includes WindowEventHandlers;"
+        ]
+    },
+    "article": {
+        "categories": [
+            "flow content",
+            "sectioning content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where sectioning content is expected."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "section": {
+        "categories": [
+            "flow content",
+            "sectioning content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where sectioning content is expected."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "nav": {
+        "categories": [
+            "flow content",
+            "sectioning content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where sectioning content is expected."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "aside": {
+        "categories": [
+            "flow content",
+            "sectioning content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where sectioning content is expected."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "h1-6": {
+        "categories": [
+            "flow content",
+            "sectioning content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "As a child of an [hgroup] element.",
+            "Where heading content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLHeadingElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "hgroup": {
+        "categories": [
+            "flow content",
+            "heading content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where heading content is expected."
+        ],
+        "content model": [
+            "Zero or more [p] elements, followed by one [h1], [h2], [h3], [h4], [h5], or [h6] element, followed by zero or more [p] elements, optionally intermixed with script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "header": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "flow content, but with no [header] or [footer] element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "If there is an ancestor sectioning content element: for authors; for implementers.",
+            "Otherwise: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "footer": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "flow content, but with no [header] or [footer] element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "If there is an ancestor sectioning content element: for authors; for implementers.",
+            "Otherwise: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "address": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content": [
+            "flow content, but with no heading content descendants, no sectioning content descendants, and no [header], [footer], or [address] element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "p": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "A [p] element's end tag can be omitted if the [p] element is immediately followed by an [address], [article], [aside], [blockquote], [details], [div], [dl], [fieldset], [figcaption], [figure], [footer], [form], [h1], [h2], [h3], [h4], [h5], [h6], [header], [hgroup], [hr], [main], [menu], [nav], [ol], [p], [pre], [search], [section], [table], or [ul] element, or if there is no more content in the parent element and the parent element is an HTML element that is not an [a], [audio], [del], [ins], [map], [noscript], or [video] element, or an autonomous custom element."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLParagraphElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "hr": {
+        "categories": [
+            "flow content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected.",
+            "As a child of a [select] element."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLHRElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "pre": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLPreElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "blockquote": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "cite - Link to the source of the quotation or more information about the edit"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLQuoteElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString cite;",
+            "};"
+        ]
+    },
+    "ol": {
+        "categories": [
+            "flow content",
+            "if the element's children include at least one [li] element: palpable content."
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "Zero or more [li] and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "reversed - Number the list backwards",
+            "start - Starting value of the list",
+            "type - Kind of list marker"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLOListElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute boolean reversed;",
+            "  [CEReactions] attribute long start;",
+            "  [CEReactions] attribute DOMString type;",
+            "  ",
+            "  // also has obsolete members",
+            "};"
         ]
     },
     "ul": {
-        "description": "順序なしリスト",
-        "category": [
-            "flow",
-            "palpable/1個以上li要素がある場合"
+        "categories": [
+            "flow content",
+            "if the element's children include at least one [li] element: palpable content."
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "Zero or more [li] and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLUListElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "menu": {
+        "categories": [
+            "flow content",
+            "if the element's children include at least one [li] element: palpable content."
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "Zero or more [li] and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLMenuElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "li": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "Inside [ol] elements.",
+            "Inside [ul] elements.",
+            "Inside [menu] elements."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "An [li] element's end tag can be omitted if the [li] element is immediately followed by another [li] element or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes",
+            "If the element is not a child of an [ul] or [menu] element: value - Ordinal value of the list item"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLLIElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute long value;",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "dl": {
+        "categories": [
+            "flow content",
+            "if the element's children include at least one name-value group: palpable content."
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "Either: Zero or more groups each consisting of one or more [dt] elements followed by one or more [dd] elements, optionally intermixed with script-supporting elements.",
+            "Or: One or more [div] elements, optionally intermixed with script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLDListElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "dt": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "Before [dd] or [dt] elements inside [dl] elements.",
+            "Before [dd] or [dt] elements inside [div] elements that are children of a [dl] element."
+        ],
+        "content model": [
+            "flow content, but with no [header], [footer], sectioning content, or heading content descendants."
+        ],
+        "tag omission in text/html": [
+            "A [dt] element's end tag can be omitted if the [dt] element is immediately followed by another [dt] element or a [dd] element."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "dd": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "After [dd] or [dt] elements inside [dl] elements.",
+            "After [dd] or [dt] elements inside [div] elements that are children of a [dl] element."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "A [dd] element's end tag can be omitted if the [dd] element is immediately followed by another [dd] element or a [dt] element, or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "figure": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "Either: one [figcaption] element followed by flow content.",
+            "Or: flow content followed by one [figcaption] element.",
+            "Or: flow content."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "figcaption": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As the first or last child of a [figure] element."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "main": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected, but only if it is a hierarchically correct main element."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "search": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "div": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected.",
+            "As a child of a [dl] element."
+        ],
+        "content model": [
+            "If the element is a child of a [dl] element: one or more [dt] elements followed by one or more [dd] elements, optionally intermixed with script-supporting elements.",
+            "If the element is not a child of a [dl] element: flow content."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLDivElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "a": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "If the element has an href attribute: Interactive content.",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "Transparent, but there must be no interactive content descendant, [a] element descendant, or descendant with the tabindex attribute specified."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "href - Address of the hyperlink",
+            "target - Navigable for hyperlink navigation",
+            "download - Whether to download the resource instead of navigating to it, and its filename if so",
+            "ping - URLs to ping",
+            "rel - Relationship between the document containing the hyperlink and the destination resource",
+            "hreflang - Language of the linked resource",
+            "type - Hint for the type of the referenced resource",
+            "referrerpolicy - Referrer policy for fetches initiated by the element"
+        ],
+        "accessibility considerations": [
+            "If the element has an href attribute: for authors; for implementers.",
+            "Otherwise: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLAnchorElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "",
+            "  [CEReactions] attribute DOMString target;",
+            "  [CEReactions] attribute DOMString download;",
+            "  [CEReactions] attribute USVString ping;",
+            "  [CEReactions] attribute DOMString rel;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList relList;",
+            "  [CEReactions] attribute DOMString hreflang;",
+            "  [CEReactions] attribute DOMString type;",
+            "",
+            "  [CEReactions] attribute DOMString text;",
+            "",
+            "  [CEReactions] attribute DOMString referrerPolicy;",
+            "",
+            "  // also has obsolete members",
+            "};",
+            "HTMLAnchorElement includes HTMLHyperlinkElementUtils;"
+        ]
+    },
+    "em": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "strong": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "small": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "s": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "cite": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "q": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "cite - Link to the source of the quotation or more information about the edit"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLQuoteElement."
+        ]
+    },
+    "dfn": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "Also, the title attribute has special semantics on this element: Full term or expansion of abbreviation."
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "abbr": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "Also, the title attribute has special semantics on this element: Full term or expansion of abbreviation."
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "ruby": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "see prose"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "rt": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [ruby] element."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "An [rt] element's end tag can be omitted if the [rt] element is immediately followed by an [rt] or [rp] element, or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "rp": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [ruby] element, either immediately before or immediately after an [rt] element.."
+        ],
+        "content model": [
+            "Text"
+        ],
+        "tag omission in text/html": [
+            "An [rp] element's end tag can be omitted if the [rp] element is immediately followed by an [rt] or [rp] element, or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "data": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "value - Machine-readable value"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLDataElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString value;",
+            "};"
+        ]
+    },
+    "time": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "If the element has a datetime attribute: phrasing content.",
+            "Otherwise: text, but must match requirements described in prose below."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "datetime - Machine-readable value"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTimeElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString dateTime;",
+            "};"
+        ]
+    },
+    "code": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
         ]
     },
     "var": {
-        "description": "変数",
-        "category": [
-            "flow",
-            "phrasing",
-            "palpable"
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
         ]
     },
-    "video": {
-        "description": "動画埋め込み",
-        "category": [
-            "flow",
-            "phrasing",
-            "embedded",
-            "interactive/controls属性がある場合"
+    "samp": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "kbd": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "sub": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "sup": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "i": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "b": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "u": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "mark": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "bdi": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "Also, the dir global attribute has special semantics on this element."
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "bdo": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "Also, the dir global attribute has special semantics on this element."
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "span": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLSpanElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "};"
+        ]
+    },
+    "br": {
+        "categories": [
+            "flow content",
+            "phrasing content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLBRElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
         ]
     },
     "wbr": {
-        "description": "改行可能",
-        "category": [
-            "flow",
-            "phrasing"
+        "categories": [
+            "flow content",
+            "phrasing content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "ins": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "transparent"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "cite - Link to the source of the quotation or more information about the edit",
+            "datetime - Date and (optionally) time of the change"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLModElement."
+        ]
+    },
+    "del": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "transparent"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "cite - Link to the source of the quotation or more information about the edit",
+            "datetime - Date and (optionally) time of the change"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLModElement."
+        ]
+    },
+    "picture": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [
+            "Zero or more [source] elements, followed by one [img] element, optionally intermixed with script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLPictureElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "};"
+        ]
+    },
+    "source": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [picture] element, before the [img] element.",
+            "As a child of a media element, before any flow content or [track] elements."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "type - Type of embedded resource",
+            "media - Applicable media",
+            "src (in [audio] or [video]) - Address of the resource",
+            "srcset (in [picture]) - Images to use in different situations, e.g., high-resolution displays, small monitors, etc.",
+            "sizes (in [picture]) - Image sizes for different page layouts",
+            "width (in [picture]) - Horizontal dimension",
+            "height (in [picture]) - Horizontal dimension"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLSourceElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [CEReactions] attribute USVString srcset;",
+            "  [CEReactions] attribute DOMString sizes;",
+            "  [CEReactions] attribute DOMString media;",
+            "  [CEReactions] attribute unsigned long width;",
+            "  [CEReactions] attribute unsigned long height;",
+            "};"
+        ]
+    },
+    "img": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "form-associated element",
+            "If the element has a usemap attribute: Interactive content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected.",
+            "As a child of a [picture] element, after all [source] elements."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "alt — Replacement text for use when images are not available",
+            "src — Address of the resource",
+            "srcset — Images to use in different situations, e.g., high-resolution displays, small monitors, etc.",
+            "sizes — Image sizes for different page layouts",
+            "crossorigin — How the element handles crossorigin requests",
+            "usemap — Name of image map to use",
+            "ismap — Whether the image is a server-side image map",
+            "width — Horizontal dimension",
+            "height — Vertical dimension",
+            "referrerpolicy — Referrer policy for fetches initiated by the element",
+            "decoding — Decoding hint to use when processing this image for presentation",
+            "loading — Used when determining loading deferral",
+            "fetchpriority — Sets the priority for fetches initiated by the element"
+        ],
+        "accessibility considerations": [
+            "If the element has a non-empty alt attribute: for authors; for implementers.",
+            "Otherwise: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "[Exposed=Window,",
+            " LegacyFactoryFunction=Image(optional unsigned long width, optional unsigned long height)]",
+            "interface HTMLImageElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString alt;",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute USVString srcset;",
+            "  [CEReactions] attribute DOMString sizes;",
+            "  [CEReactions] attribute DOMString? crossOrigin;",
+            "  [CEReactions] attribute DOMString useMap;",
+            "  [CEReactions] attribute boolean isMap;",
+            "  [CEReactions] attribute unsigned long width;",
+            "  [CEReactions] attribute unsigned long height;",
+            "  readonly attribute unsigned long naturalWidth;",
+            "  readonly attribute unsigned long naturalHeight;",
+            "  readonly attribute boolean complete;",
+            "  readonly attribute USVString currentSrc;",
+            "  [CEReactions] attribute DOMString referrerPolicy;",
+            "  [CEReactions] attribute DOMString decoding;",
+            "  [CEReactions] attribute DOMString loading;",
+            "  [CEReactions] attribute DOMString fetchPriority;",
+            "  ",
+            "  Promise<undefined> decode();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "iframe": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "interactive content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "src — Address of the resource",
+            "srcdoc — A document to render in the [iframe]",
+            "name — Name of content navigable",
+            "sandbox — Security rules for nested content",
+            "allow — Permissions policy to be applied to the [iframe]'s contents",
+            "allowfullscreen — Whether to allow the [iframe]'s contents to use requestFullscreen()",
+            "width — Horizontal dimension",
+            "height — Vertical dimension",
+            "referrerpolicy — Referrer policy for fetches initiated by the element",
+            "loading — Used when determining loading deferral"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLIFrameElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute DOMString srcdoc;",
+            "  [CEReactions] attribute DOMString name;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList sandbox;",
+            "  [CEReactions] attribute DOMString allow;",
+            "  [CEReactions] attribute boolean allowFullscreen;",
+            "  [CEReactions] attribute DOMString width;",
+            "  [CEReactions] attribute DOMString height;",
+            "  [CEReactions] attribute DOMString referrerPolicy;",
+            "  [CEReactions] attribute DOMString loading;",
+            "  readonly attribute Document? contentDocument;",
+            "  readonly attribute WindowProxy? contentWindow;",
+            "  Document? getSVGDocument();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "embed": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "interactive content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "src — Address of the resource",
+            "type — Type of embedded resource",
+            "width — Horizontal dimension",
+            "height — Vertical dimension",
+            "Any other attribute that has no namespace (see prose)."
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLEmbedElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [CEReactions] attribute DOMString width;",
+            "  [CEReactions] attribute DOMString height;",
+            "  Document? getSVGDocument();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "object": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "listed form-associated element",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [
+            "transparent"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "data — Address of the resource",
+            "type — Type of embedded resource",
+            "name — Name of content navigable",
+            "form — Associates the element with a [form] element",
+            "width — Horizontal dimension",
+            "height — Vertical dimension"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLObjectElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString data;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [CEReactions] attribute DOMString name;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute DOMString width;",
+            "  [CEReactions] attribute DOMString height;",
+            "  readonly attribute Document? contentDocument;",
+            "  readonly attribute WindowProxy? contentWindow;",
+            "  Document? getSVGDocument();",
+            "  ",
+            "  readonly attribute boolean willValidate;",
+            "  readonly attribute ValidityState validity;",
+            "  readonly attribute DOMString validationMessage;",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "  undefined setCustomValidity(DOMString error);",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "video": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "If the element has controls attribute: interactive content.",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [
+            "If the element has a src attribute: zero or more [track] elements, then transparent, but with no media element descendants.",
+            "If the element does not have a src attribute: zero or more [source] elements, then zero or more [track] elements, then transparent, but with no media element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "src — Address of the resource",
+            "crossorigin — How the element handles crossorigin requests",
+            "poster — Poster frame to show prior to video playback",
+            "preload — Hints how much buffering the media resource will likely need",
+            "autoplay — Hint that the media resource can be started automatically when the page is loaded",
+            "playsinline — Encourage the user agent to display video content within the element's playback area",
+            "loop — Whether to loop the media resource",
+            "muted — Whether to mute the media resource by default",
+            "controls — Show user agent controls",
+            "width — Horizontal dimension",
+            "height — Vertical dimension"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLVideoElement : HTMLMediaElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute unsigned long width;",
+            "  [CEReactions] attribute unsigned long height;",
+            "  readonly attribute unsigned long videoWidth;",
+            "  readonly attribute unsigned long videoHeight;",
+            "  [CEReactions] attribute USVString poster;",
+            "  [CEReactions] attribute boolean playsInline;",
+            "};"
+        ]
+    },
+    "audio": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "If the element has controls attribute: interactive content.",
+            "If the element has controls attribute: palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [
+            "If the element has a src attribute: zero or more [track] elements, then transparent, but with no media element descendants.",
+            "If the element does not have a src attribute: zero or more [source] elements, then zero or more [track] elements, then transparent, but with no media element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "src — Address of the resource",
+            "crossorigin — How the element handles crossorigin requests",
+            "preload — Hints how much buffering the media resource will likely need",
+            "autoplay — Hint that the media resource can be started automatically when the page is loaded",
+            "loop — Whether to loop the media resource",
+            "muted — Whether to mute the media resource by default",
+            "controls — Show user agent controls"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window,",
+            " LegacyFactoryFunction=Audio(optional DOMString src)]",
+            "interface HTMLAudioElement : HTMLMediaElement {",
+            "  [HTMLConstructor] constructor();",
+            "};"
+        ]
+    },
+    "track": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a media element, before any flow content."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "kind — The type of text track",
+            "src — Address of the resource",
+            "srclang — Language of the text track",
+            "label — User-visible label",
+            "default — Enable the track if no other text track is more suitable"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTrackElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "",
+            "  [CEReactions] attribute DOMString kind;",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute DOMString srclang;",
+            "  [CEReactions] attribute DOMString label;",
+            "  [CEReactions] attribute boolean default;",
+            "",
+            "  const unsigned short NONE = 0;",
+            "  const unsigned short LOADING = 1;",
+            "  const unsigned short LOADED = 2;",
+            "  const unsigned short ERROR = 3;",
+            "  readonly attribute unsigned short readyState;",
+            "",
+            "  readonly attribute TextTrack track;",
+            "};"
+        ]
+    },
+    "map": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "transparent"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "name - Name of image map to reference usemap attribute"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLMapElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "",
+            "  [CEReactions] attribute DOMString name;",
+            "  [SameObject] readonly attribute HTMLCollection areas;",
+            "};"
+        ]
+    },
+    "area": {
+        "categories": [
+            "flow content",
+            "phrasing content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "alt — Replacement text for use when images are not available",
+            "coords — Coordinates for the shape to be created in an image map",
+            "shape — The kind of shape to be created in an image map",
+            "href — Address of the hyperlink",
+            "target — Navigable for hyperlink navigation",
+            "download — Whether to download the resource instead of navigating to it, and its filename if so",
+            "ping — URLs to ping",
+            "rel — Relationship between the location in the document containing the hyperlink and the destination resource",
+            "referrerpolicy — Referrer policy for fetches initiated by the element"
+        ],
+        "accessibility considerations": [
+            "If the element has an href attribute: for authors; for implementers.",
+            "Otherwise: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLAreaElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString alt;",
+            "  [CEReactions] attribute DOMString coords;",
+            "  [CEReactions] attribute DOMString shape;",
+            "  [CEReactions] attribute DOMString target;",
+            "  [CEReactions] attribute DOMString download;",
+            "  [CEReactions] attribute USVString ping;",
+            "  [CEReactions] attribute DOMString rel;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList relList;",
+            "  [CEReactions] attribute DOMString referrerPolicy;",
+            "  ",
+            "  // also has obsolete members",
+            "};",
+            "HTMLAreaElement includes HTMLHyperlinkElementUtils;"
+        ]
+    },
+    "table": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "In this order: optionally a [caption] element, followed by zero or more [colgroup] elements, followed optionally by a [thead] element, followed by either zero or more [tbody] elements or one or more [tr] elements, followed optionally by a [tfoot] element, optionally intermixed with one or more script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTableElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute HTMLTableCaptionElement? caption;",
+            "  HTMLTableCaptionElement createCaption();",
+            "  [CEReactions] undefined deleteCaption();",
+            "  ",
+            "  [CEReactions] attribute HTMLTableSectionElement? tHead;",
+            "  HTMLTableSectionElement createTHead();",
+            "  [CEReactions] undefined deleteTHead();",
+            "  ",
+            "  [CEReactions] attribute HTMLTableSectionElement? tFoot;",
+            "  HTMLTableSectionElement createTFoot();",
+            "  [CEReactions] undefined deleteTFoot();",
+            "  ",
+            "  [SameObject] readonly attribute HTMLCollection tBodies;",
+            "  HTMLTableSectionElement createTBody();",
+            "  ",
+            "  [SameObject] readonly attribute HTMLCollection rows;",
+            "  HTMLTableRowElement insertRow(optional long index = -1);",
+            "  [CEReactions] undefined deleteRow(long index);",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "caption": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As the first element child of a [table] element."
+        ],
+        "content model": [
+            "flow content, but with no descendant [table] elements."
+        ],
+        "tag omission in text/html": [
+            "A [caption] element's end tag can be omitted if the [caption] element is not immediately followed by ASCII whitespace or a comment."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTableCaptionElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "colgroup": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [table] element, after any [caption] elements and before any [thead], [tbody], [tfoot], and [tr] elements."
+        ],
+        "content model": [
+            "If the span attribute is present: Nothing.",
+            "If the span attribute is absent: Zero or more [col] and [template] elements."
+        ],
+        "tag omission in text/html": [
+            "A [colgroup] element's start tag can be omitted if the first thing inside the [colgroup] element is a [col] element, and if the element is not immediately preceded by another [colgroup] element whose end tag has been omitted. (It can't be omitted if the element is empty.)",
+            "A [colgroup] element's end tag can be omitted if the [colgroup] element is not immediately followed by ASCII whitespace or a comment."
+        ],
+        "content attributes": [
+            "global attributes",
+            "span - Number of columns spanned by the element"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTableColElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute unsigned long span;",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "col": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [colgroup] element that doesn't have a span attribute."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "span - Number of columns spanned by the element"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLTableColElement, as defined for [colgroup] elements."
+        ]
+    },
+    "tbody": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [table] element, after any [caption], [colgroup], and [thead] elements, but only if there are no [tr] elements that are children of the [table] element."
+        ],
+        "content model": [
+            "Zero or more [tr] and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "A [tbody] element's start tag can be omitted if the first thing inside the [tbody] element is a [tr] element, and if the element is not immediately preceded by a [tbody], [thead], or [tfoot] element whose end tag has been omitted. (It can't be omitted if the element is empty.)",
+            "A [tbody] element's end tag can be omitted if the [tbody] element is immediately followed by a [tbody] or [tfoot] element, or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTableSectionElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [SameObject] readonly attribute HTMLCollection rows;",
+            "  HTMLTableRowElement insertRow(optional long index = -1);",
+            "  [CEReactions] undefined deleteRow(long index);",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "thead": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [table] element, after any [caption], and [colgroup] elements and before any [tbody], [tfoot], and [tr] elements, but only if there are no other [thead] elements that are children of the [table] element."
+        ],
+        "content model": [
+            "Zero or more [tr] and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "A [thead] element's end tag can be omitted if the [thead] element is immediately followed by a [tbody] or [tfoot] element."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLTableSectionElement, as defined for [tbody] elements."
+        ]
+    },
+    "tfoot": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a table element, after any [caption], [colgroup], [thead], [tbody], and [tr] elements, but only if there are no other [tfoot] elements that are children of the table element."
+        ],
+        "content model": [
+            "Zero or more [tr] and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "A [tfoot] element's end tag can be omitted if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLTableSectionElement, as defined for [tbody] elements."
+        ]
+    },
+    "tr": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [thead] element.",
+            "As a child of a [tbody] element.",
+            "As a child of a [tfoot] element.",
+            "As a child of a [table] element, after any [caption], [colgroup], and [thead] elements, but only if there are no [tbody] elements that are children of the [table] element."
+        ],
+        "content model": [
+            "Zero or more [td], [th], and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "A [tr] element's end tag can be omitted if the [tr] element is immediately followed by another [tr] element, or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTableRowElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  readonly attribute long rowIndex;",
+            "  readonly attribute long sectionRowIndex;",
+            "  [SameObject] readonly attribute HTMLCollection cells;",
+            "  HTMLTableCellElement insertCell(optional long index = -1);",
+            "  [CEReactions] undefined deleteCell(long index);",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "td": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [tr] element."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "A [td] element's end tag can be omitted if the [td] element is immediately followed by a [td] or [th] element, or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes",
+            "colspan — Number of columns that the cell is to span",
+            "rowspan — Number of rows that the cell is to span",
+            "headers — The header cells for this cell"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTableCellElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute unsigned long colSpan;",
+            "  [CEReactions] attribute unsigned long rowSpan;",
+            "  [CEReactions] attribute DOMString headers;",
+            "  readonly attribute long cellIndex;",
+            "  ",
+            "  [CEReactions] attribute DOMString scope; // only conforming for th elements",
+            "  [CEReactions] attribute DOMString abbr;  // only conforming for th elements",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "th": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [tr] element."
+        ],
+        "content model": [
+            "flow content, but with no [header], [footer], sectioning content, or heading content descendants."
+        ],
+        "tag omission in text/html": [
+            "A [th] element's end tag can be omitted if the [th] element is immediately followed by a [td] or [th] element, or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes",
+            "colspan — Number of columns that the cell is to span",
+            "rowspan — Number of rows that the cell is to span",
+            "headers — The header cells for this cell",
+            "scope - Specifies which cells the header cell applies to",
+            "abbr - Alternative label to use for the header cell when referencing the cell in other contexts"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLTableCellElement, as defined for [td] elements."
+        ]
+    },
+    "form": {
+        "categories": [
+            "flow content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "flow content, but with no [form] element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "accept-charset - Character encodings to use for form submission",
+            "action - URL to use for form submission",
+            "autocomplete - Default setting for autofill feature for controls in the form",
+            "enctype - Entry list encoding type to use for form submission",
+            "method - Variant to use for form submission",
+            "name - Name of form to use in the document.forms API",
+            "novalidate - Bypass form control validation for form submission",
+            "target - Navigable for form submission",
+            "rel - none"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window,",
+            " LegacyOverrideBuiltIns,",
+            " LegacyUnenumerableNamedProperties]",
+            "interface HTMLFormElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString acceptCharset;",
+            "  [CEReactions] attribute USVString action;",
+            "  [CEReactions] attribute DOMString autocomplete;",
+            "  [CEReactions] attribute DOMString enctype;",
+            "  [CEReactions] attribute DOMString encoding;",
+            "  [CEReactions] attribute DOMString method;",
+            "  [CEReactions] attribute DOMString name;",
+            "  [CEReactions] attribute boolean noValidate;",
+            "  [CEReactions] attribute DOMString target;",
+            "  [CEReactions] attribute DOMString rel;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList relList;",
+            "  ",
+            "  [SameObject] readonly attribute HTMLFormControlsCollection elements;",
+            "  readonly attribute unsigned long length;",
+            "  getter Element (unsigned long index);",
+            "  getter (RadioNodeList or Element) (DOMString name);",
+            "  ",
+            "  undefined submit();",
+            "  undefined requestSubmit(optional HTMLElement? submitter = null);",
+            "  [CEReactions] undefined reset();",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "};"
+        ]
+    },
+    "label": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "interactive content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content, but with no descendant labelable elements unless it is the element's labeled control, and no descendant [label] elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "for - Associate the label with form control"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLLabelElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute DOMString htmlFor;",
+            "  readonly attribute HTMLElement? control;",
+            "};"
+        ]
+    },
+    "input": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "If the type attribute is not in the Hidden state: Interactive content.",
+            "If the type attribute is not in the Hidden state: Listed, labelable, submittable, resettable, and autocapitalize-inheriting form-associated element.",
+            "If the type attribute is in the Hidden state: Listed, submittable, resettable, and autocapitalize-inheriting form-associated element.",
+            "If the type attribute is not in the Hidden state: Palpable content."
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "accept — Hint for expected file type in file upload controls",
+            "alt — Replacement text for use when images are not available",
+            "autocomplete — Hint for form autofill feature",
+            "checked — Whether the control is checked",
+            "dirname — Name of form control to use for sending the element's directionality in form submission",
+            "disabled — Whether the form control is disabled",
+            "form — Associates the element with a form element",
+            "formaction — URL to use for form submission",
+            "formenctype — Entry list encoding type to use for form submission",
+            "formmethod — Variant to use for form submission",
+            "formnovalidate — Bypass form control validation for form submission",
+            "formtarget — Navigable for form submission",
+            "height — Vertical dimension",
+            "list — List of autocomplete options",
+            "max — Maximum value",
+            "maxlength — Maximum length of value",
+            "min — Minimum value",
+            "minlength — Minimum length of value",
+            "multiple — Whether to allow multiple values",
+            "name — Name of the element to use for form submission and in the form.elements API",
+            "pattern — Pattern to be matched by the form control's value",
+            "placeholder — User-visible label to be placed within the form control",
+            "popovertarget — Targets a popover element to toggle, show, or hide",
+            "popovertargetaction — Indicates whether a targeted popover element is to be toggled, shown, or hidden",
+            "readonly — Whether to allow the value to be edited by the user",
+            "required — Whether the control is required for form submission",
+            "size — Size of the control",
+            "src — Address of the resource",
+            "step — Granularity to be matched by the form control's value",
+            "type — Type of form control",
+            "value — Value of the form control",
+            "width — Horizontal dimension",
+            "Also, the title attribute has special semantics on this element: Description of pattern (when used with pattern attribute)"
+        ],
+        "accessibility considerations": [
+            "type attribute in the Hidden state: for authors; for implementers.",
+            "type attribute in the Text state: for authors; for implementers.",
+            "type attribute in the Search state: for authors; for implementers.",
+            "type attribute in the Telephone state: for authors; for implementers.",
+            "type attribute in the URL state: for authors; for implementers.",
+            "type attribute in the Email state: for authors; for implementers.",
+            "type attribute in the Password state: for authors; for implementers.",
+            "type attribute in the Date state: for authors; for implementers.",
+            "type attribute in the Month state: for authors; for implementers.",
+            "type attribute in the Week state: for authors; for implementers.",
+            "type attribute in the Time state: for authors; for implementers.",
+            "type attribute in the Local Date and Time state: for authors; for implementers.",
+            "type attribute in the Number state: for authors; for implementers.",
+            "type attribute in the Range state: for authors; for implementers.",
+            "type attribute in the Color state: for authors; for implementers.",
+            "type attribute in the Checkbox state: for authors; for implementers.",
+            "type attribute in the Radio Button state: for authors; for implementers.",
+            "type attribute in the File Upload state: for authors; for implementers.",
+            "type attribute in the Submit Button state: for authors; for implementers.",
+            "type attribute in the Image Button state: for authors; for implementers.",
+            "type attribute in the Reset Button state: for authors; for implementers.",
+            "type attribute in the Button state: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLInputElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString accept;",
+            "  [CEReactions] attribute DOMString alt;",
+            "  [CEReactions] attribute DOMString autocomplete;",
+            "  [CEReactions] attribute boolean defaultChecked;",
+            "  attribute boolean checked;",
+            "  [CEReactions] attribute DOMString dirName;",
+            "  [CEReactions] attribute boolean disabled;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  attribute FileList? files;",
+            "  [CEReactions] attribute USVString formAction;",
+            "  [CEReactions] attribute DOMString formEnctype;",
+            "  [CEReactions] attribute DOMString formMethod;",
+            "  [CEReactions] attribute boolean formNoValidate;",
+            "  [CEReactions] attribute DOMString formTarget;",
+            "  [CEReactions] attribute unsigned long height;",
+            "  attribute boolean indeterminate;",
+            "  readonly attribute HTMLDataListElement? list;",
+            "  [CEReactions] attribute DOMString max;",
+            "  [CEReactions] attribute long maxLength;",
+            "  [CEReactions] attribute DOMString min;",
+            "  [CEReactions] attribute long minLength;",
+            "  [CEReactions] attribute boolean multiple;",
+            "  [CEReactions] attribute DOMString name;",
+            "  [CEReactions] attribute DOMString pattern;",
+            "  [CEReactions] attribute DOMString placeholder;",
+            "  [CEReactions] attribute boolean readOnly;",
+            "  [CEReactions] attribute boolean required;",
+            "  [CEReactions] attribute unsigned long size;",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute DOMString step;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [CEReactions] attribute DOMString defaultValue;",
+            "  [CEReactions] attribute [LegacyNullToEmptyString] DOMString value;",
+            "  attribute object? valueAsDate;",
+            "  attribute unrestricted double valueAsNumber;",
+            "  [CEReactions] attribute unsigned long width;",
+            "  ",
+            "  undefined stepUp(optional long n = 1);",
+            "  undefined stepDown(optional long n = 1);",
+            "  ",
+            "  readonly attribute boolean willValidate;",
+            "  readonly attribute ValidityState validity;",
+            "  readonly attribute DOMString validationMessage;",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "  undefined setCustomValidity(DOMString error);",
+            "  ",
+            "  readonly attribute NodeList? labels;",
+            "  ",
+            "  undefined select();",
+            "  attribute unsigned long? selectionStart;",
+            "  attribute unsigned long? selectionEnd;",
+            "  attribute DOMString? selectionDirection;",
+            "  undefined setRangeText(DOMString replacement);",
+            "  undefined setRangeText(DOMString replacement, unsigned long start, unsigned long end, optional SelectionMode selectionMode = \"preserve\");",
+            "  undefined setSelectionRange(unsigned long start, unsigned long end, optional DOMString direction);",
+            "  ",
+            "  undefined showPicker();",
+            "  ",
+            "  // also has obsolete members",
+            "};",
+            "HTMLInputElement includes PopoverInvokerElement;"
+        ]
+    },
+    "button": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "interactive content",
+            "Listed, labelable, submittable, and autocapitalize-inheriting form-associated element.",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where phrasing content is expected."
+        ],
+        "content model": [
+            "Phrasing content, but there must be no interactive content descendant and no descendant with the tabindex attribute specified."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "disabled — Whether the form control is disabled",
+            "form — Associates the element with a form element",
+            "formaction — URL to use for form submission",
+            "formenctype — Entry list encoding type to use for form submission",
+            "formmethod — Variant to use for form submission",
+            "formnovalidate — Bypass form control validation for form submission",
+            "formtarget — Navigable for form submission",
+            "name — Name of the element to use for form submission and in the form.elements API",
+            "popovertarget — Targets a popover element to toggle, show, or hide",
+            "popovertargetaction — Indicates whether a targeted popover element is to be toggled, shown, or hidden",
+            "type — Type of button",
+            "value — Value to be used for form submission"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLButtonElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute boolean disabled;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute USVString formAction;",
+            "  [CEReactions] attribute DOMString formEnctype;",
+            "  [CEReactions] attribute DOMString formMethod;",
+            "  [CEReactions] attribute boolean formNoValidate;",
+            "  [CEReactions] attribute DOMString formTarget;",
+            "  [CEReactions] attribute DOMString name;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [CEReactions] attribute DOMString value;",
+            "  ",
+            "  readonly attribute boolean willValidate;",
+            "  readonly attribute ValidityState validity;",
+            "  readonly attribute DOMString validationMessage;",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "  undefined setCustomValidity(DOMString error);",
+            "  ",
+            "  readonly attribute NodeList labels;",
+            "};",
+            "HTMLButtonElement includes PopoverInvokerElement;"
+        ]
+    },
+    "select": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "interactive content",
+            "Listed, labelable, submittable, and autocapitalize-inheriting form-associated element.",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "Zero or more [option], [optgroup], [hr], and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "autocomplete — Hint for form autofill feature",
+            "disabled — Whether the form control is disabled",
+            "form — Associates the element with a form element",
+            "multiple — Whether to allow multiple values",
+            "name — Name of the element to use for form submission and in the form.elements API",
+            "required — Whether the control is required for form submission",
+            "size — Size of the control"
+        ],
+        "accessibility considerations": [
+            "If the element has a multiple attribute or a size attribute with a value > 1: for authors; for implementers.",
+            "Otherwise: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLSelectElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString autocomplete;",
+            "  [CEReactions] attribute boolean disabled;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute boolean multiple;",
+            "  [CEReactions] attribute DOMString name;",
+            "  [CEReactions] attribute boolean required;",
+            "  [CEReactions] attribute unsigned long size;",
+            "  ",
+            "  readonly attribute DOMString type;",
+            "  ",
+            "  [SameObject] readonly attribute HTMLOptionsCollection options;",
+            "  [CEReactions] attribute unsigned long length;",
+            "  getter HTMLOptionElement? item(unsigned long index);",
+            "  HTMLOptionElement? namedItem(DOMString name);",
+            "  [CEReactions] undefined add((HTMLOptionElement or HTMLOptGroupElement) element, optional (HTMLElement or long)? before = null);",
+            "  [CEReactions] undefined remove(); // ChildNode overload",
+            "  [CEReactions] undefined remove(long index);",
+            "  [CEReactions] setter undefined (unsigned long index, HTMLOptionElement? option);",
+            "  ",
+            "  [SameObject] readonly attribute HTMLCollection selectedOptions;",
+            "  attribute long selectedIndex;",
+            "  attribute DOMString value;",
+            "  ",
+            "  readonly attribute boolean willValidate;",
+            "  readonly attribute ValidityState validity;",
+            "  readonly attribute DOMString validationMessage;",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "  undefined setCustomValidity(DOMString error);",
+            "  ",
+            "  undefined showPicker();",
+            "  ",
+            "  readonly attribute NodeList labels;",
+            "};"
+        ]
+    },
+    "datalist": {
+        "categories": [
+            "flow content",
+            "phrasing content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "Either: phrasing content.",
+            "Or: Zero or more [option] and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLDataListElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [SameObject] readonly attribute HTMLCollection options;",
+            "};"
+        ]
+    },
+    "optgroup": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a select element"
+        ],
+        "content model": [
+            "Zero or more [option] and script-supporting elements."
+        ],
+        "tag omission in text/html": [
+            "An [optgroup] element's end tag can be omitted if the [optgroup] element is immediately followed by another [optgroup] element, if it is immediately followed by an [hr] element, or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes",
+            "disabled — Whether the form control is disabled",
+            "label — User-visible label"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLOptGroupElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "",
+            "  [CEReactions] attribute boolean disabled;",
+            "  [CEReactions] attribute DOMString label;",
+            "};"
+        ]
+    },
+    "option": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a [select] element.",
+            "As a child of a [datalist] element.",
+            "As a child of a [optgroup] element."
+        ],
+        "content model": [
+            "If the element has a label attribute and a value attribute: Nothing.",
+            "If the element has a label attribute but no value attribute: Text.",
+            "If the element has no label attribute and is not a child of a datalist element: Text that is not inter-element whitespace.",
+            "If the element has no label attribute and is a child of a datalist element: Text."
+        ],
+        "tag omission in text/html": [
+            "An [option] element's end tag can be omitted if the [option] element is immediately followed by another [option] element, if it is immediately followed by an [optgroup] element, if it is immediately followed by an [hr] element, or if there is no more content in the parent element."
+        ],
+        "content attributes": [
+            "global attributes",
+            "disabled — Whether the form control is disabled",
+            "label — User-visible label",
+            "selected — Whether the option is selected by default",
+            "value — Value to be used for form submission"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window,",
+            " LegacyFactoryFunction=Option(optional DOMString text = \"\", optional DOMString value, optional boolean defaultSelected = false, optional boolean selected = false)]",
+            "interface HTMLOptionElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "",
+            "  [CEReactions] attribute boolean disabled;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute DOMString label;",
+            "  [CEReactions] attribute boolean defaultSelected;",
+            "  attribute boolean selected;",
+            "  [CEReactions] attribute DOMString value;",
+            "",
+            "  [CEReactions] attribute DOMString text;",
+            "  readonly attribute long index;",
+            "};"
+        ]
+    },
+    "textarea": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "interactive content",
+            "Listed, labelable, submittable, resettable, and autocapitalize-inheriting form-associated element.",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where phrasing content is expected."
+        ],
+        "content model": [
+            "Text"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "autocomplete — Hint for form autofill feature",
+            "cols — Maximum number of characters per line",
+            "dirname — Name of form control to use for sending the element's directionality in form submission",
+            "disabled — Whether the form control is disabled",
+            "form — Associates the element with a form element",
+            "maxlength — Maximum length of value",
+            "minlength — Minimum length of value",
+            "name — Name of the element to use for form submission and in the form.elements API",
+            "placeholder — User-visible label to be placed within the form control",
+            "readonly — Whether to allow the value to be edited by the user",
+            "required — Whether the control is required for form submission",
+            "rows — Number of lines to show",
+            "wrap — How the value of the form control is to be wrapped for form submission"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTextAreaElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString autocomplete;",
+            "  [CEReactions] attribute unsigned long cols;",
+            "  [CEReactions] attribute DOMString dirName;",
+            "  [CEReactions] attribute boolean disabled;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute long maxLength;",
+            "  [CEReactions] attribute long minLength;",
+            "  [CEReactions] attribute DOMString name;",
+            "  [CEReactions] attribute DOMString placeholder;",
+            "  [CEReactions] attribute boolean readOnly;",
+            "  [CEReactions] attribute boolean required;",
+            "  [CEReactions] attribute unsigned long rows;",
+            "  [CEReactions] attribute DOMString wrap;",
+            "  ",
+            "  readonly attribute DOMString type;",
+            "  [CEReactions] attribute DOMString defaultValue;",
+            "  attribute [LegacyNullToEmptyString] DOMString value;",
+            "  readonly attribute unsigned long textLength;",
+            "  ",
+            "  readonly attribute boolean willValidate;",
+            "  readonly attribute ValidityState validity;",
+            "  readonly attribute DOMString validationMessage;",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "  undefined setCustomValidity(DOMString error);",
+            "  ",
+            "  readonly attribute NodeList labels;",
+            "  ",
+            "  undefined select();",
+            "  attribute unsigned long selectionStart;",
+            "  attribute unsigned long selectionEnd;",
+            "  attribute DOMString selectionDirection;",
+            "  undefined setRangeText(DOMString replacement);",
+            "  undefined setRangeText(DOMString replacement, unsigned long start, unsigned long end, optional SelectionMode selectionMode = \"preserve\");",
+            "  undefined setSelectionRange(unsigned long start, unsigned long end, optional DOMString direction);",
+            "};"
+        ]
+    },
+    "output": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "Listed, labelable, resettable, and autocapitalize-inheriting form-associated element.",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "for — Specifies controls from which the output was calculated",
+            "form — Associates the element with a [form] element",
+            "name — Name of the element to use in the form.elements API."
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLOutputElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList htmlFor;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute DOMString name;",
+            "  ",
+            "  readonly attribute DOMString type;",
+            "  [CEReactions] attribute DOMString defaultValue;",
+            "  [CEReactions] attribute DOMString value;",
+            "  ",
+            "  readonly attribute boolean willValidate;",
+            "  readonly attribute ValidityState validity;",
+            "  readonly attribute DOMString validationMessage;",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "  undefined setCustomValidity(DOMString error);",
+            "  ",
+            "  readonly attribute NodeList labels;",
+            "};"
+        ]
+    },
+    "progress": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "labelable element",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content, but there must be no [progress] element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "value - Current value of the element",
+            "max - Upper bound of range"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLProgressElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute double value;",
+            "  [CEReactions] attribute double max;",
+            "  readonly attribute double position;",
+            "  readonly attribute NodeList labels;",
+            "};"
+        ]
+    },
+    "meter": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "labelable element",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content, but there must be no [meter] element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "value — Current value of the element",
+            "min — Lower bound of range",
+            "max — Upper bound of range",
+            "low — High limit of low range",
+            "high — Low limit of high range",
+            "optimum — Optimum value in gauge"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLMeterElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute double value;",
+            "  [CEReactions] attribute double min;",
+            "  [CEReactions] attribute double max;",
+            "  [CEReactions] attribute double low;",
+            "  [CEReactions] attribute double high;",
+            "  [CEReactions] attribute double optimum;",
+            "  readonly attribute NodeList labels;",
+            "};"
+        ]
+    },
+    "fieldset": {
+        "categories": [
+            "flow content",
+            "Listed and autocapitalize-inheriting form-associated element.",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "Optionally a legend element, followed by flow content."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "disabled — Whether the descendant form controls, except any inside legend, are disabled",
+            "form — Associates the element with a [form] element",
+            "name — Name of the element to use in the form.elements API."
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLFieldSetElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute boolean disabled;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute DOMString name;",
+            "  ",
+            "  readonly attribute DOMString type;",
+            "  ",
+            "  [SameObject] readonly attribute HTMLCollection elements;",
+            "  ",
+            "  readonly attribute boolean willValidate;",
+            "  [SameObject] readonly attribute ValidityState validity;",
+            "  readonly attribute DOMString validationMessage;",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "  undefined setCustomValidity(DOMString error);",
+            "};"
+        ]
+    },
+    "legend": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As the first child of a [fieldset] element."
+        ],
+        "content model": [
+            "Phrasing content, optionally intermixed with heading content."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLLegendElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  readonly attribute HTMLFormElement? form;",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "details": {
+        "categories": [
+            "flow content",
+            "interactive content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "One [summary] element followed by flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "name — Name of group of mutually-exclusive details elements",
+            "open — Whether the details are visible"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLDetailsElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "",
+            "  [CEReactions] attribute DOMString name;",
+            "  [CEReactions] attribute boolean open;",
+            "};"
+        ]
+    },
+    "summary": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As the first child of a details element."
+        ],
+        "content model": [
+            "Phrasing content, optionally intermixed with heading content."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "dialog": {
+        "categories": [
+            "flow content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "open - Whether the dialog box is showing"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLDialogElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute boolean open;",
+            "  attribute DOMString returnValue;",
+            "  [CEReactions] undefined show();",
+            "  [CEReactions] undefined showModal();",
+            "  [CEReactions] undefined close(optional DOMString returnValue);",
+            "};"
+        ]
+    },
+    "script": {
+        "categories": [
+            "metadata content",
+            "flow content",
+            "phrasing content",
+            "script-supporting element"
+        ],
+        "contexts in which this element can be used": [
+            "Where metadata content is expected.",
+            "Where phrasing content is expected.",
+            "Where script-supporting elements are expected."
+        ],
+        "content model": [
+            "If there is no src attribute, depends on the value of the type attribute, but must match script content restrictions.",
+            "If there is a src attribute, the element must be either empty or contain only script documentation that also matches script content restrictions."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "src — Address of the resource",
+            "type — Type of script",
+            "nomodule — Prevents execution in user agents that support module scripts",
+            "async — Execute script when available, without blocking while fetching",
+            "defer — Defer script execution",
+            "crossorigin — How the element handles crossorigin requests",
+            "integrity — Integrity metadata used in Subresource Integrity checks [SRI]",
+            "referrerpolicy — Referrer policy for fetches initiated by the element",
+            "blocking — Whether the element is potentially render-blocking",
+            "fetchpriority — Sets the priority for fetches initiated by the element"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLScriptElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [CEReactions] attribute boolean noModule;",
+            "  [CEReactions] attribute boolean async;",
+            "  [CEReactions] attribute boolean defer;",
+            "  [CEReactions] attribute DOMString? crossOrigin;",
+            "  [CEReactions] attribute DOMString text;",
+            "  [CEReactions] attribute DOMString integrity;",
+            "  [CEReactions] attribute DOMString referrerPolicy;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList blocking;",
+            "  [CEReactions] attribute DOMString fetchPriority;",
+            "  ",
+            "  static boolean supports(DOMString type);",
+            "  ",
+            "  // also has obsolete members",
+            "};"
+        ]
+    },
+    "noscript": {
+        "categories": [
+            "metadata content",
+            "flow content",
+            "phrasing content"
+        ],
+        "contexts in which this element can be used": [
+            "In a [head] element of an HTML document, if there are no ancestor [noscript] elements.",
+            "Where phrasing content is expected in HTML documents, if there are no ancestor [noscript] elements."
+        ],
+        "content model": [
+            "When scripting is disabled, in a [head] element: in any order, zero or more [link] elements, zero or more [style] elements, and zero or more [meta] elements.",
+            "When scripting is disabled, not in a [head] element: transparent, but there must be no [noscript] element descendants.",
+            "Otherwise: text that conforms to the requirements given in the prose."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "Uses HTMLElement."
+        ]
+    },
+    "template": {
+        "categories": [
+            "metadata content",
+            "flow content",
+            "phrasing content",
+            "script-supporting element"
+        ],
+        "contexts in which this element can be used": [
+            "Where metadata content is expected.",
+            "Where phrasing content is expected.",
+            "Where script-supporting elements are expected.",
+            "As a child of a [colgroup] element that doesn't have a span attribute."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "shadowrootmode — Enables streaming declarative shadow roots",
+            "shadowrootdelegatesfocus — Sets delegates focus on a declarative shadow root"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTemplateElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  readonly attribute DocumentFragment content;",
+            "  [CEReactions] attribute DOMString shadowRootMode;",
+            "  [CEReactions] attribute boolean shadowRootDelegatesFocus;",
+            "};"
+        ]
+    },
+    "slot": {
+        "categories": [
+            "flow content",
+            "phrasing content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [
+            "Transparent"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "name - Name of shadow tree slot"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLSlotElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString name;",
+            "  sequence<Node> assignedNodes(optional AssignedNodesOptions options = {});",
+            "  sequence<Element> assignedElements(optional AssignedNodesOptions options = {});",
+            "  undefined assign((Element or Text)... nodes);",
+            "};",
+            "  ",
+            "dictionary AssignedNodesOptions {",
+            "  boolean flatten = false;",
+            "};"
+        ]
+    },
+    "canvas": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [
+            "Transparent, but with no interactive content descendants except for [a] elements, [img] elements with [usemap] attributes, [button] elements, [input] elements whose type attribute are in the Checkbox or Radio Button states, [input] elements that are buttons, and [select] elements with a multiple attribute or a display size greater than 1."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "width — Horizontal dimension",
+            "height — Vertical dimension"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "typedef (CanvasRenderingContext2D or ImageBitmapRenderingContext or WebGLRenderingContext or WebGL2RenderingContext or GPUCanvasContext) RenderingContext;",
+            " ",
+            "[Exposed=Window]",
+            "interface HTMLCanvasElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            " ",
+            "  [CEReactions] attribute unsigned long width;",
+            "  [CEReactions] attribute unsigned long height;",
+            " ",
+            "  RenderingContext? getContext(DOMString contextId, optional any options = null);",
+            " ",
+            "  USVString toDataURL(optional DOMString type = \"image/png\", optional any quality);",
+            "  undefined toBlob(BlobCallback _callback, optional DOMString type = \"image/png\", optional any quality);",
+            "  OffscreenCanvas transferControlToOffscreen();",
+            "};",
+            " ",
+            "callback BlobCallback = undefined (Blob? blob);"
         ]
     }
 }
