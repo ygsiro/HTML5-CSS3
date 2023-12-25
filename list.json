@@ -3289,6 +3289,43 @@
             "};"
         ]
     },
+    "progress": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "labelable element",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where phrasing content is expected."
+        ],
+        "content model": [
+            "phrasing content, but there must be no [progress] element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "value - Current value of the element",
+            "max - Upper bound of range"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLProgressElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute double value;",
+            "  [CEReactions] attribute double max;",
+            "  readonly attribute double position;",
+            "  readonly attribute NodeList labels;",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
