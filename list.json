@@ -3623,5 +3623,44 @@
         "DOM interface": [
             "Uses HTMLElement."
         ]
+    },
+    "template": {
+        "categories": [
+            "metadata content",
+            "flow content",
+            "phrasing content",
+            "script-supporting element"
+        ],
+        "contexts in which this element can be used": [
+            "Where metadata content is expected.",
+            "Where phrasing content is expected.",
+            "Where script-supporting elements are expected.",
+            "As a child of a [colgroup] element that doesn't have a span attribute."
+        ],
+        "content model": [
+            "Nothing"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "shadowrootmode — Enables streaming declarative shadow roots",
+            "shadowrootdelegatesfocus — Sets delegates focus on a declarative shadow root"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTemplateElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  readonly attribute DocumentFragment content;",
+            "  [CEReactions] attribute DOMString shadowRootMode;",
+            "  [CEReactions] attribute boolean shadowRootDelegatesFocus;",
+            "};"
+        ]
     }
 }
