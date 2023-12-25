@@ -2128,6 +2128,138 @@
             "};"
         ]
     },
+    "video": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "If the element has controls attribute: interactive content.",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [
+            "If the element has a src attribute: zero or more [track] elements, then transparent, but with no media element descendants.",
+            "If the element does not have a src attribute: zero or more [source] elements, then zero or more [track] elements, then transparent, but with no media element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "src — Address of the resource",
+            "crossorigin — How the element handles crossorigin requests",
+            "poster — Poster frame to show prior to video playback",
+            "preload — Hints how much buffering the media resource will likely need",
+            "autoplay — Hint that the media resource can be started automatically when the page is loaded",
+            "playsinline — Encourage the user agent to display video content within the element's playback area",
+            "loop — Whether to loop the media resource",
+            "muted — Whether to mute the media resource by default",
+            "controls — Show user agent controls",
+            "width — Horizontal dimension",
+            "height — Vertical dimension"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLVideoElement : HTMLMediaElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute unsigned long width;",
+            "  [CEReactions] attribute unsigned long height;",
+            "  readonly attribute unsigned long videoWidth;",
+            "  readonly attribute unsigned long videoHeight;",
+            "  [CEReactions] attribute USVString poster;",
+            "  [CEReactions] attribute boolean playsInline;",
+            "};"
+        ]
+    },
+    "audio": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "embedded content",
+            "If the element has controls attribute: interactive content.",
+            "If the element has controls attribute: palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "where embedded content is expected."
+        ],
+        "content model": [
+            "If the element has a src attribute: zero or more [track] elements, then transparent, but with no media element descendants.",
+            "If the element does not have a src attribute: zero or more [source] elements, then zero or more [track] elements, then transparent, but with no media element descendants."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "src — Address of the resource",
+            "crossorigin — How the element handles crossorigin requests",
+            "preload — Hints how much buffering the media resource will likely need",
+            "autoplay — Hint that the media resource can be started automatically when the page is loaded",
+            "loop — Whether to loop the media resource",
+            "muted — Whether to mute the media resource by default",
+            "controls — Show user agent controls"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window,",
+            " LegacyFactoryFunction=Audio(optional DOMString src)]",
+            "interface HTMLAudioElement : HTMLMediaElement {",
+            "  [HTMLConstructor] constructor();",
+            "};"
+        ]
+    },
+    "track": {
+        "categories": [],
+        "contexts in which this element can be used": [
+            "As a child of a media element, before any flow content."
+        ],
+        "content model": [],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "kind — The type of text track",
+            "src — Address of the resource",
+            "srclang — Language of the text track",
+            "label — User-visible label",
+            "default — Enable the track if no other text track is more suitable"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLTrackElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "",
+            "  [CEReactions] attribute DOMString kind;",
+            "  [CEReactions] attribute USVString src;",
+            "  [CEReactions] attribute DOMString srclang;",
+            "  [CEReactions] attribute DOMString label;",
+            "  [CEReactions] attribute boolean default;",
+            "",
+            "  const unsigned short NONE = 0;",
+            "  const unsigned short LOADING = 1;",
+            "  const unsigned short LOADED = 2;",
+            "  const unsigned short ERROR = 3;",
+            "  readonly attribute unsigned short readyState;",
+            "",
+            "  readonly attribute TextTrack track;",
+            "};"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
