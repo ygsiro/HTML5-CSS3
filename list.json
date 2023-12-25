@@ -2917,6 +2917,70 @@
             "HTMLInputElement includes PopoverInvokerElement;"
         ]
     },
+    "button": {
+        "categories": [
+            "flow content",
+            "phrasing content",
+            "interactive content",
+            "Listed, labelable, submittable, and autocapitalize-inheriting form-associated element.",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where phrasing content is expected."
+        ],
+        "content model": [
+            "Phrasing content, but there must be no interactive content descendant and no descendant with the tabindex attribute specified."
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "disabled — Whether the form control is disabled",
+            "form — Associates the element with a form element",
+            "formaction — URL to use for form submission",
+            "formenctype — Entry list encoding type to use for form submission",
+            "formmethod — Variant to use for form submission",
+            "formnovalidate — Bypass form control validation for form submission",
+            "formtarget — Navigable for form submission",
+            "name — Name of the element to use for form submission and in the form.elements API",
+            "popovertarget — Targets a popover element to toggle, show, or hide",
+            "popovertargetaction — Indicates whether a targeted popover element is to be toggled, shown, or hidden",
+            "type — Type of button",
+            "value — Value to be used for form submission"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLButtonElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute boolean disabled;",
+            "  readonly attribute HTMLFormElement? form;",
+            "  [CEReactions] attribute USVString formAction;",
+            "  [CEReactions] attribute DOMString formEnctype;",
+            "  [CEReactions] attribute DOMString formMethod;",
+            "  [CEReactions] attribute boolean formNoValidate;",
+            "  [CEReactions] attribute DOMString formTarget;",
+            "  [CEReactions] attribute DOMString name;",
+            "  [CEReactions] attribute DOMString type;",
+            "  [CEReactions] attribute DOMString value;",
+            "  ",
+            "  readonly attribute boolean willValidate;",
+            "  readonly attribute ValidityState validity;",
+            "  readonly attribute DOMString validationMessage;",
+            "  boolean checkValidity();",
+            "  boolean reportValidity();",
+            "  undefined setCustomValidity(DOMString error);",
+            "  ",
+            "  readonly attribute NodeList labels;",
+            "};",
+            "HTMLButtonElement includes PopoverInvokerElement;"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
