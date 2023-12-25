@@ -2293,6 +2293,54 @@
             "};"
         ]
     },
+    "area": {
+        "categories": [
+            "flow content",
+            "phrasing content"
+        ],
+        "contexts in which this element can be used": [
+            "where phrasing content is expected."
+        ],
+        "content model": [],
+        "tag omission in text/html": [
+            "No end tag."
+        ],
+        "content attributes": [
+            "global attributes",
+            "alt — Replacement text for use when images are not available",
+            "coords — Coordinates for the shape to be created in an image map",
+            "shape — The kind of shape to be created in an image map",
+            "href — Address of the hyperlink",
+            "target — Navigable for hyperlink navigation",
+            "download — Whether to download the resource instead of navigating to it, and its filename if so",
+            "ping — URLs to ping",
+            "rel — Relationship between the location in the document containing the hyperlink and the destination resource",
+            "referrerpolicy — Referrer policy for fetches initiated by the element"
+        ],
+        "accessibility considerations": [
+            "If the element has an href attribute: for authors; for implementers.",
+            "Otherwise: for authors; for implementers."
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLAreaElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "  ",
+            "  [CEReactions] attribute DOMString alt;",
+            "  [CEReactions] attribute DOMString coords;",
+            "  [CEReactions] attribute DOMString shape;",
+            "  [CEReactions] attribute DOMString target;",
+            "  [CEReactions] attribute DOMString download;",
+            "  [CEReactions] attribute USVString ping;",
+            "  [CEReactions] attribute DOMString rel;",
+            "  [SameObject, PutForwards=value] readonly attribute DOMTokenList relList;",
+            "  [CEReactions] attribute DOMString referrerPolicy;",
+            "  ",
+            "  // also has obsolete members",
+            "};",
+            "HTMLAreaElement includes HTMLHyperlinkElementUtils;"
+        ]
+    },
     "copy": {
         "categories": [],
         "contexts in which this element can be used": [],
