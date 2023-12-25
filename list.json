@@ -3445,5 +3445,39 @@
             "  // also has obsolete members",
             "};"
         ]
+    },
+    "details": {
+        "categories": [
+            "flow content",
+            "interactive content",
+            "palpable content"
+        ],
+        "contexts in which this element can be used": [
+            "Where flow content is expected."
+        ],
+        "content model": [
+            "One [summary] element followed by flow content"
+        ],
+        "tag omission in text/html": [
+            "Neither tag is omissible."
+        ],
+        "content attributes": [
+            "global attributes",
+            "name — Name of group of mutually-exclusive details elements",
+            "open — Whether the details are visible"
+        ],
+        "accessibility considerations": [
+            "for authors",
+            "for implementers"
+        ],
+        "DOM interface": [
+            "[Exposed=Window]",
+            "interface HTMLDetailsElement : HTMLElement {",
+            "  [HTMLConstructor] constructor();",
+            "",
+            "  [CEReactions] attribute DOMString name;",
+            "  [CEReactions] attribute boolean open;",
+            "};"
+        ]
     }
 }
